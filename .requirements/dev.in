@@ -3,3 +3,5 @@ isort
 black
 invoke
 minchin.text
+# for better installs
+wheel

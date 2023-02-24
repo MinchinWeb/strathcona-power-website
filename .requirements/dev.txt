@@ -38,7 +38,9 @@ platformdirs==3.0.0
 pyproject-hooks==1.0.0
     # via build
 wheel==0.38.4
-    # via pip-tools
+    # via
+    #   -r .requirements\dev.in
+    #   pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip

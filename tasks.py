@@ -13,6 +13,10 @@ REQUIREMENTS_PATH = [
     ".requirements",
 ]
 
+p = Path.cwd()
+deploy_path = p / "output"
+publish_path = p / "output"
+
 @task
 def update(ctx):
     """
@@ -49,12 +53,17 @@ def update(ctx):
     ctx.run(f"pip-compile {base_path / ALL_REQUIREMENT_FILE}.in")
 
 @task
-def upgrade(ctx, requirement_file="all"):
+def upgrade(ctx, requirement_file="all", build=False, dev=False):
     """
     Upgrade python requirements to version specified in requirements files.
     """
 
     title("Upgrade python requirements to version specified in requirements files")
+
+    if build is True:
+        requirement_file = "build"
+    elif dev is True:
+        requirement_file = "dev"
 
     base_path = Path(".")
     for folder in REQUIREMENTS_PATH:
@@ -63,3 +72,34 @@ def upgrade(ctx, requirement_file="all"):
     print(f"** requirement file: {requirement_file}")
 
     ctx.run(f"pip-sync {requirement_file.resolve()}")
+
+
+@task
+def build(ctx, publish=False, carefully=False):
+    """Build a local version of the blog."""
+
+    config = "pelicanconf.py"
+    if publish:
+        config = "publishconf.py"
+
+    if carefully:
+        carefully_cli = " --fatal=warnings"
+    else:
+        carefully_cli = ""
+    ctx.run("pelican -s {}{}".format(config, carefully_cli))
+
+@task
+def build_debug(ctx):
+    """Use debug output to build a local version of the blog."""
+    ctx.run("pelican -s pelicanconf.py --debug")
+
+@task
+def serve(ctx):
+    """Serve the local blog output on port 8000."""
+    ctx.run("cd {} && start python -m http.server".format(deploy_path))
+
+
+@task
+def serve_on(ctx, port):
+    """Serve the local blog output on a port of your choosing."""
+    ctx.run("cd {} && start python -m http.server {}".format(deploy_path, port))

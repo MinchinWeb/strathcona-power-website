@@ -1,2 +1,23 @@
 pelican
 markdown
+minchin.pelican.plugins.autoloader
+minchin.pelican.plugins.cname
+minchin.pelican.plugins.nojekyll
+minchin.pelican.plugins.optimize_images
+minchin.pelican.plugins.post_stats
+minchin.pelican.plugins.summary >= 1.2.0
+pelican-alias
+pelican-extended-sitemap
+pelican-minify
+pelican-neighbors
+seafoam
+typogrify
+webassets >= 0.12.1
+html5lib
+# for beautifulsoup
+lxml
+# security forced updated
+jinja2 >= 2.11.3  # otherwise, via Pelican
+Pillow >= 9.1
+Pygments >= 2.7.4  # otherwise, via Pelican
+lxml >= 4.6.5
