@@ -8,16 +8,16 @@ from minchin.pelican.plugins import autoloader
 AUTHOR = "Strathcona Power"
 SITENAME = "Strathcona Power"
 SITEURL = ""
-SITE_ROOT_URL = "https://strathconapower.ca"
+SITE_ROOT_URL = "//"
 
 TIMEZONE = "America/Edmonton"
 
 DEFAULT_LANG = "en"
 
 
-# Caching
-CACHE_CONTENT = True
-LOAD_CONTENT_CACHE = True
+# # Caching
+# CACHE_CONTENT = True
+# LOAD_CONTENT_CACHE = True
 
 DEFAULT_PAGINATION = 10
 # USE_PAGER = False
@@ -28,7 +28,7 @@ PAGINATOR_LIMIT = 6
 # these are relative to the base CONTENT folder
 STATIC_PATHS = [
     "images",
-    "../extras",
+    # "../extras",
     # "css",
     # "design",
     # "js",
@@ -92,7 +92,7 @@ PAGE_SAVE_AS = PAGE_URL
 #     ("Labels", SITEURL + "/" + TAGS_URL, "fa fa-fw fa-tags"),
 # )
 
-DISPLAY_PAGES_ON_MENU = False
+# DISPLAY_PAGES_ON_MENU = False
 
 # Theme Related
 SEAFOAM_DEV_MODE = True
@@ -111,9 +111,9 @@ CUSTOM_JS_LIST = []
 INDEX_COPY_DATE = "20{}".format(str(date.today().year)[-2:])
 TAGS_TEXT = "Labels"
 
-TEMPLATE_PAGES = {
-    "404.html": "404.html",
-}
+# TEMPLATE_PAGES = {
+#     "404.html": "404.html",
+# }
 
 # list categories here in lowercase
 CATEGORY_IMAGES = {

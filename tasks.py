@@ -18,7 +18,7 @@ deploy_path = p / "output"
 publish_path = p / "output"
 
 @task
-def update(ctx):
+def update(ctx, verbose=False):
     """
     Update python requirements files to latest versions.
 
@@ -44,16 +44,16 @@ def update(ctx):
             print()
             subtitle(f"** {requirement} **")
             print()
-            ctx.run(f"pip-compile {base_path / requirement}.in")
+            ctx.run(f"pip-compile {base_path / requirement}.in", hide=not verbose)
             print(f"-r {requirement}.in", file=all_requirements_file)
 
     print()
     subtitle(f"** {all_requirements} **")
     print()
-    ctx.run(f"pip-compile {base_path / ALL_REQUIREMENT_FILE}.in")
+    ctx.run(f"pip-compile {base_path / ALL_REQUIREMENT_FILE}.in", hide=not verbose)
 
 @task
-def upgrade(ctx, requirement_file="all", build=False, dev=False):
+def upgrade(ctx, requirement_file="all", build=False, dev=False, verbose=False):
     """
     Upgrade python requirements to version specified in requirements files.
     """
@@ -71,7 +71,7 @@ def upgrade(ctx, requirement_file="all", build=False, dev=False):
     requirement_file = base_path / f"{requirement_file}.txt"
     print(f"** requirement file: {requirement_file}")
 
-    ctx.run(f"pip-sync {requirement_file.resolve()}")
+    ctx.run(f"pip-sync {requirement_file.resolve()}", hide=not verbose)
 
 
 @task
