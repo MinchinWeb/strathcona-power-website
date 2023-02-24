@@ -1,3 +1,5 @@
 pip-tools
 isort
 black
+invoke
+minchin.text
