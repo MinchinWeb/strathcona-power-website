@@ -5,7 +5,7 @@ from datetime import date
 
 from minchin.pelican.plugins import autoloader
 
-AUTHOR = "Strathcona Power"
+AUTHOR = "Strathcona Power Ltd"
 SITENAME = "Strathcona Power"
 SITEURL = ""
 SITE_ROOT_URL = "//"
@@ -44,7 +44,8 @@ EXTRA_PATH_METADATA = {
     "../.gitattributes": {"path": ".gitattributes"},
     "../.gitignore": {"path": ".gitignore"},
     "../README.txt": {"path": "README.txt"},
-    "../extras/favicon.ico": {"path": "favicon.ico"},
+    # "../extras/favicon.ico": {"path": "favicon.ico"},
+    "images/strathcona-power-16x16.png": {"path": "favicon.png"},
 }
 
 # MARKUP = ("rst", "md", "markdown", "mkd", "mdown", "html", "htm")
@@ -97,12 +98,12 @@ PAGE_SAVE_AS = PAGE_URL
 # Theme Related
 SEAFOAM_DEV_MODE = True
 TYPOGRIFY = True
-# SITELOGO = "images/StrathconaPower-200.png"
+SITELOGO = "images/strathcona-power-250x150-white.png"
 SITELOGO_SIZE = "100%"
 PYGMENTS_STYLE = "friendly"
 DISPLAY_BREADCRUMBS = True
 FAVICON = "favicon.ico"
-# BOOTSTRAP_THEME = "seafoam"  # auto added by Seafoam
+BOOTSTRAP_THEME = "strathcona"
 USE_OPEN_GRAPH = True
 # CUSTOM_CSS = 'css/strathcona-power.css'
 DOCUTIL_CSS = False
@@ -111,14 +112,17 @@ CUSTOM_JS_LIST = []
 INDEX_COPY_DATE = "20{}".format(str(date.today().year)[-2:])
 TAGS_TEXT = "Labels"
 
+AVATAR = "images/strathcona-power-64x64.png"
+
 # TEMPLATE_PAGES = {
 #     "404.html": "404.html",
 # }
 
 # list categories here in lowercase
 CATEGORY_IMAGES = {
-    "electricity": "images/electricity.png",
-    "natural-gas": "images/natural-gas.png",
+    # "electricity": "images/electricity.png",
+    # "natural-gas": "images/natural-gas.png",
+    # "fixed-vs-floating": "images/fixed-vs-floating",
 }
 
 # Plugins

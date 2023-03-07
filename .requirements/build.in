@@ -10,7 +10,7 @@ pelican-alias
 pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
-seafoam
+seafoam >= 2.8.0
 typogrify
 webassets >= 0.12.1
 html5lib

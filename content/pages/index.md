@@ -27,7 +27,7 @@ We service homes, farms, and small commercial across the province.
 
 <!-- obvious Call to Action -->
 
-Sign up now.
+Sign up now!
 
 Switching is super simple. We ask you for your address and some information
 about you, and for payment information. We'll reach out in the rare case we
@@ -42,4 +42,11 @@ will come about six weeks after you complete the sign up process.
 
 <!-- Site Map -- in footer? -->
 
-<img src="../images/StrathconaPower.png" alt="Strathcona Power" class="center-block img-responsive" />
+<img src="../images/strathcona-power-250x150-red.png" alt="Strathcona Power"
+class="center-block img-responsive" />
+
+<small markdown=1>
+  Strathcona Power sell with Sponsor Energy as your licensed
+  retailer of electricity (License #343969) and natural gas (License #343970)
+  in the Province of Alberta.
+</small>
