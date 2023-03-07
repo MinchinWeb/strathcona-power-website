@@ -8,7 +8,7 @@ from minchin.pelican.plugins import autoloader
 AUTHOR = "Strathcona Power Ltd"
 SITENAME = "Strathcona Power"
 SITEURL = ""
-SITE_ROOT_URL = "//"
+SITE_ROOT_URL = "/"
 
 TIMEZONE = "America/Edmonton"
 
@@ -61,8 +61,8 @@ CATEGORY_URL = "category/{slug}/"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 CATEGORIES_URL = "category/"
 CATEGORIES_SAVE_AS = "category/index.html"
-ARTICLE_URL = "{date:%Y}/{date:%m}/{slug}.html"
-ARTICLE_SAVE_AS = ARTICLE_URL
+ARTICLE_URL = "{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_SAVE_AS = "{date:%Y}/{date:%m}/{slug}/index.html"
 AUTHORS_URL = ""
 AUTHORS_SAVE_AS = ""
 ARCHIVES_URL = "archives/"
@@ -71,8 +71,8 @@ YEAR_ARCHIVE_URL = "{date:%Y}/"
 YEAR_ARCHIVE_SAVE_AS = "{date:%Y}/index.html"
 MONTH_ARCHIVE_URL = "{date:%Y}/{date:%m}/"
 MONTH_ARCHIVE_SAVE_AS = "{date:%Y}/{date:%m}/index.html"
-PAGE_URL = "{slug}.html"
-PAGE_SAVE_AS = PAGE_URL
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
 
 
 # # Add Blog to sidebar
@@ -98,10 +98,10 @@ PAGE_SAVE_AS = PAGE_URL
 # Theme Related
 SEAFOAM_DEV_MODE = True
 TYPOGRIFY = True
-SITELOGO = "images/strathcona-power-250x150-white.png"
+SITELOGO = "images/strathcona-power-250x150-white-crop.png"
 SITELOGO_SIZE = "100%"
 PYGMENTS_STYLE = "friendly"
-DISPLAY_BREADCRUMBS = True
+DISPLAY_BREADCRUMBS = False
 FAVICON = "favicon.ico"
 BOOTSTRAP_THEME = "strathcona"
 USE_OPEN_GRAPH = True
@@ -111,6 +111,8 @@ CUSTOM_JS_LIST = []
 # update copyright date automatically
 INDEX_COPY_DATE = "20{}".format(str(date.today().year)[-2:])
 TAGS_TEXT = "Labels"
+NAVBAR_ON_TOP = True
+DISPLAY_ARCHIVES_ON_MENU = False
 
 AVATAR = "images/strathcona-power-64x64.png"
 

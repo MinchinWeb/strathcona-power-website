@@ -2,9 +2,9 @@ title: Strathcona Power
 url:
 jumbotron: True
 jumbotron_color: #8B6D49
-jumbotron_image: halkirk-895.jpg
-image: halkirk-895.jpg
-header: halkirk-895.jpg
+jumbotron_image: images/halkirk-895.jpg
+image: images/halkirk-895.jpg
+header: images/halkirk-895.jpg
 save_as: index.html
 status: hidden
 
@@ -18,10 +18,10 @@ We service homes, farms, and small commercial across the province.
 
 <div class="row" markdown=1>
   <div class="col-sm-6" markdown=1>
-[Electricity Rates]({filename}electricity.md)
+[Electricity Rates]({filename}10-electricity.md)
   </div>
   <div class="col-sm-6" markdown=1>
-[Natural Gas Rates]({filename}natural-gas.md)
+[Natural Gas Rates]({filename}20-natural-gas.md)
   </div>
 </div>
 
