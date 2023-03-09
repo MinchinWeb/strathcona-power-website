@@ -72,7 +72,9 @@ minchin-pelican-plugins-post-stats==1.1.1
 minchin-pelican-plugins-summary==1.2.0
     # via -r .requirements\build.in
 minchin-text==6.1.0
-    # via -r .requirements\dev.in
+    # via
+    #   -r .requirements\build.in
+    #   -r .requirements\dev.in
 mypy-extensions==1.0.0
     # via black
 packaging==23.0

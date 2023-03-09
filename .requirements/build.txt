@@ -19,6 +19,7 @@ colorama==0.4.6
     # via
     #   build
     #   click
+    #   minchin-text
 docutils==0.19
     # via pelican
 feedgenerator==2.0.0
@@ -61,6 +62,8 @@ minchin-pelican-plugins-optimize-images==1.2.1
 minchin-pelican-plugins-post-stats==1.1.1
     # via -r .requirements\build.in
 minchin-pelican-plugins-summary==1.2.0
+    # via -r .requirements\build.in
+minchin-text==6.1.0
     # via -r .requirements\build.in
 packaging==23.0
     # via build

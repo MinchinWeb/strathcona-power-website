@@ -24,4 +24,5 @@ Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.6.5
 
 invoke
+minchin.text
 pip-tools

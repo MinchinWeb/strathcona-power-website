@@ -48,8 +48,8 @@ jobs:
       - name: Upgrade Pip, etc
         run: python -m pip install pip setuptools wheel --upgrade
 
-      - name: Install invoke
-        run: pip install invoke
+      - name: Install invoke, etc
+        run: pip install invoke minchin.text
 
       - name: Install pip-tools
         run: pip install pip-tools
