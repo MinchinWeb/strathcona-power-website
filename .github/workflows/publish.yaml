@@ -11,6 +11,18 @@ jobs:
     name: Build Pelican site
     runs-on: ubuntu-latest
     steps:
+      # https://abbbi.github.io/actions/
+      # disables some Ubuntu functionality that we don't need in a "throw away" runtime
+      - uses: abbbi/github-actions-tune@v1
+
+      - name : Update sources
+        run: sudo apt-get update
+
+      - name: Install (and Cache) Ubuntu packages
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: optipng jpegtran
+
       - name: Checkout Source
         uses: actions/checkout@v3
 
@@ -56,7 +68,7 @@ jobs:
         run: pip install pip-tools
 
       - name: Install requirements (via invoke)
-        run: invoke upgrade --requirements-file build
+        run: invoke upgrade --requirements-file build --verbose
 
       - name: Build Site
         run: invoke build --carefully --publish
