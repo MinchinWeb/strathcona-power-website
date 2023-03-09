@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - pelican
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Install Python
         id: pthon-install
@@ -27,7 +27,7 @@ jobs:
         run: echo '${{ steps.pthon-install.outputs.python-version }}'
 
       - name: Confirm pip Cache Hit
-        run: echo '${{ steps.pthon-install.outputs.cache-hit }}
+        run: echo '${{ steps.pthon-install.outputs.cache-hit }}'
 
 
       # - name: Get pip Cache Directory
