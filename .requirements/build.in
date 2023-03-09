@@ -10,7 +10,8 @@ pelican-alias
 pelican-extended-sitemap
 pelican-minify
 pelican-neighbors
-seafoam >= 2.8.0
+# seafoam >= 2.8.0
+seafoam @ git+https://github.com/MinchinWeb/seafoam.git@master
 typogrify
 webassets >= 0.12.1
 html5lib
@@ -21,3 +22,6 @@ jinja2 >= 2.11.3  # otherwise, via Pelican
 Pillow >= 9.1
 Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.6.5
+
+invoke
+pip-tools

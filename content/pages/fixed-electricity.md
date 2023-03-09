@@ -16,4 +16,3 @@ call_to_action_url: https://billhub.com
 summary: this is our best rate! **Bold**ly said.
 
 This is after.
-
