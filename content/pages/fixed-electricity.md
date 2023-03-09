@@ -4,6 +4,7 @@ updated: 2023-02-28 17:55
 template: strathcona/pricing
 url: electricity/fixed/
 save_as: electricity/fixed/index.html
+status: hidden
 electricity: True
 fixed_price: True
 admin_fee: 9
@@ -16,6 +17,3 @@ summary: this is our best rate! **Bold**ly said.
 
 This is after.
 
-```yaml
-status: hidden
-```
