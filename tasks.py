@@ -53,7 +53,7 @@ def update(ctx, verbose=False):
     ctx.run(f"pip-compile {base_path / ALL_REQUIREMENT_FILE}.in", hide=not verbose)
 
 @task
-def upgrade(ctx, requirement_file="all", build=False, dev=False, verbose=False):
+def upgrade(ctx, requirements_file="all", build=False, dev=False, verbose=False):
     """
     Upgrade python requirements to version specified in requirements files.
     """
@@ -61,17 +61,17 @@ def upgrade(ctx, requirement_file="all", build=False, dev=False, verbose=False):
     title("Upgrade python requirements to version specified in requirements files")
 
     if build is True:
-        requirement_file = "build"
+        requirements_file = "build"
     elif dev is True:
-        requirement_file = "dev"
+        requirements_file = "dev"
 
     base_path = Path(".")
     for folder in REQUIREMENTS_PATH:
         base_path = base_path / folder
-    requirement_file = base_path / f"{requirement_file}.txt"
-    print(f"** requirement file: {requirement_file}")
+    requirements_file = base_path / f"{requirements_file}.txt"
+    print(f"** requirements file: {requirements_file}")
 
-    ctx.run(f"pip-sync {requirement_file.resolve()}", hide=not verbose)
+    ctx.run(f"pip-sync {requirements_file.resolve()}", hide=not verbose)
 
 
 @task

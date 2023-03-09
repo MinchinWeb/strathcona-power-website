@@ -23,11 +23,12 @@ jobs:
           cache: pip
           cache-dependency-path: '.requirements/*.txt'
 
-      - name: Confirm Python Version Installed
-        run: echo '${{ steps.pthon-install.outputs.python-version }}'
+      # this is displayed in the details of the 'Install Python' step above
+      # - name: Confirm Python Version Installed
+      #   run: echo '${{ steps.pthon-install.outputs.python-version }}'
 
-      - name: Confirm pip Cache Hit
-        run: echo '${{ steps.pthon-install.outputs.cache-hit }}'
+      # - name: Confirm pip Cache Hit
+      #   run: echo '${{ steps.pthon-install.outputs.cache-hit }}'
 
 
       # - name: Get pip Cache Directory
