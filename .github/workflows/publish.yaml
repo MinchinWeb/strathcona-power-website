@@ -15,10 +15,8 @@ jobs:
       # disables some Ubuntu functionality that we don't need in a "throw away" runtime
       - uses: abbbi/github-actions-tune@v1
 
-      - name : Update sources
-        run: sudo apt-get update
-
       - name: Install (and Cache) Ubuntu packages
+        # includes updating apt sources
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
           packages: optipng libjpeg-progs
@@ -36,29 +34,6 @@ jobs:
           cache: pip
           cache-dependency-path: '.requirements/*.txt'
 
-      # this is displayed in the details of the 'Install Python' step above
-      # - name: Confirm Python Version Installed
-      #   run: echo '${{ steps.pthon-install.outputs.python-version }}'
-
-      # - name: Confirm pip Cache Hit
-      #   run: echo '${{ steps.pthon-install.outputs.cache-hit }}'
-
-
-      # - name: Get pip Cache Directory
-      #   # this can vary by OS
-      #   id: pip-cache
-      #   run: |
-      #     echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
-
-      # - name: Cache dependencies
-      #   uses: actions/cache@v3
-      #   with:
-      #     # path: ~/.cache/pip
-      #     path: ${{ steps.pip-cache.outputs.dir }}
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
-
       - name: Upgrade Pip, etc
         run: python -m pip install pip setuptools wheel --upgrade
 
@@ -73,6 +48,11 @@ jobs:
 
       - name: Build Site
         run: invoke build --carefully --publish
+
+      - name: Upload Artifact (Built Site)
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./output
 
   deploy:
     # Add a dependency to the build job
