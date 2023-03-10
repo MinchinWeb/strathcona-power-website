@@ -21,7 +21,8 @@ jobs:
       - name: Install (and Cache) Ubuntu packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: optipng jpegtran
+          packages: optipng libjpeg-progs
+        # libjpeg-progs for jpegtran
 
       - name: Checkout Source
         uses: actions/checkout@v3
