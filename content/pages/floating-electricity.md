@@ -4,6 +4,7 @@ updated: 2023-02-28 17:55
 template: strathcona/pricing
 url: electricity/floating/
 save_as: electricity/floating/index.html
+status: hidden
 electricity: True
 floating_price: True
 admin_fee: 9
@@ -12,6 +13,5 @@ term: False
 call_to_action: Sign Up!
 call_to_action_url: https://billhub.com
 
-status: hidden
 
 something here
