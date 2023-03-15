@@ -142,6 +142,10 @@ ASSET_JS = False
 NEIGHBORS = True
 
 IMAGE_PROCESS = {
+    # set for 12 col width
+    "article-feature": {
+        "scale_in 1140 1140 False",
+    },
     "9-col": {
         "type": "picture",
         "sources": [

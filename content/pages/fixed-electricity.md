@@ -12,7 +12,17 @@ site_fee: 0.49
 price: 10.9
 term: 5
 call_to_action: Sign Up!
-call_to_action_url: https://billhub.com
-summary: this is our best rate! **Bold**ly said.
+call_to_action_url: https://billhub.ca/signup/strathconapower
+summary: This is our recommend rate!
 
-This is after.
+We offer both fixed and [floating]({filename}floating-electricity.md)
+electricity rates.
+
+All rates are subject to an administration fee, as well as distribution and
+transmission fees.
+
+<small markdown=1>
+  Strathcona Power sells with Sponsor Energy as your licensed
+  retailer of electricity (License #343969)
+  in the Province of Alberta.
+</small>

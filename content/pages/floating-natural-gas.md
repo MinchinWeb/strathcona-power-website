@@ -10,4 +10,16 @@ floating_price: True
 admin_fee: 9
 price: 0.89
 call_to_action: Sign Up!
-call_to_action_url: https://billhub.com
+call_to_action_url: https://billhub.ca/signup/strathconapower
+summary: This is our recommend rate!
+
+We offer both [fixed]({filename}fixed-natural-gas.md) and floating natural gas rates.
+
+All rates are subject to an administration fee, as well as distribution and
+transmission fees.
+
+<small markdown=1>
+  Strathcona Power sell with Sponsor Energy as your licensed
+  retailer of natural gas (License #343970)
+  in the Province of Alberta.
+</small>

@@ -13,5 +13,16 @@ price: 4.99
 exit_fee: 250
 term: 5
 call_to_action: Sign Up!
-call_to_action_url: https://billhub.com
+call_to_action_url: https://billhub.ca/signup/strathconapower
+summary:
 
+We offer both fixed and [floating]({filename}floating-natural-gas.md) natural gas rates.
+
+All rates are subject to an administration fee, as well as distribution and
+transmission fees.
+
+<small markdown=1>
+  Strathcona Power sell with Sponsor Energy as your licensed
+  retailer of electricity (License #343969) and natural gas (License #343970)
+  in the Province of Alberta.
+</small>
