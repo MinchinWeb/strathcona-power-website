@@ -1,5 +1,5 @@
-title: Konnect Special Rates
-slug: konnect
+title: Konect Special Rates
+slug: konect
 status: hidden
 updated: 2023-03-16 15:25:19
 template: strathcona/dual_pricing
@@ -18,7 +18,7 @@ ng_term: 5
 ng_exit_fee: 250
 ng_call_to_action: Go Fixed!
 ng_call_to_action_url: https://billhub.ca/signup/konnect
-summary: Konnect has partnered with Strathcona Power to offer dedicated rates for small commercial and residential customers.
+summary: Konect has partnered with Strathcona Power to offer dedicated rates for small commercial and residential customers.
 
 These rates are limited to those customers who use under 250,000 kWh of
 electricity per year and/or 2,500 GJ of natural gas per year. All rates are
