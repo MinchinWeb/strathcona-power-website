@@ -9,7 +9,7 @@ natural_gas: True
 fixed_price: True
 admin_fee: 9
 site_fee: 0.19
-price: 4.99
+price: 5.49
 exit_fee: 250
 term: 5
 call_to_action: Sign Up!
@@ -23,6 +23,6 @@ transmission fees.
 
 <small markdown=1>
   Strathcona Power sell with Sponsor Energy as your licensed
-  retailer of electricity (License #343969) and natural gas (License #343970)
+  retailer of natural gas (License #343970)
   in the Province of Alberta.
 </small>
