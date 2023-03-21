@@ -26,7 +26,7 @@ subject to an administration fee, as well as distribution and transmission
 fees.
 
 <small markdown=1>
-  Konnect and Strathcona Power sell with Sponsor Energy as your licensed
+  Konect and Strathcona Power sell with Sponsor Energy as your licensed
   retailer of electricity (License #343969) and natural gas (License #343970)
   in the Province of Alberta.
 </small>
