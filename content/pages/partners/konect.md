@@ -9,7 +9,7 @@ el_admin_fee: 5.49
 el_site_fee: 0.32
 el_term: 5
 el_call_to_action: Go Fixed!
-el_call_to_action_url: https://billhub.ca/signup/konnect
+el_call_to_action_url: https://billhub.ca/signup/konect
 ng_fixed_price: True
 ng_price: 7.49
 ng_admin_fee: 5.49
@@ -17,7 +17,7 @@ ng_site_fee: 0.05
 ng_term: 5
 ng_exit_fee: 250
 ng_call_to_action: Go Fixed!
-ng_call_to_action_url: https://billhub.ca/signup/konnect
+ng_call_to_action_url: https://billhub.ca/signup/konect
 summary: Konect has partnered with Strathcona Power to offer dedicated rates for small commercial and residential customers.
 
 These rates are limited to those customers who use under 250,000 kWh of
