@@ -4,14 +4,14 @@ status: hidden
 updated: 2023-03-16 15:25:19
 template: strathcona/dual_pricing
 el_fixed_price: True
-el_price: 13.29
+el_price: 13.45
 el_admin_fee: 5.49
 el_site_fee: 0.32
 el_term: 5
 el_call_to_action: Go Fixed!
 el_call_to_action_url: https://billhub.ca/signup/konect
 ng_fixed_price: True
-ng_price: 7.49
+ng_price: 7.37
 ng_admin_fee: 5.49
 ng_site_fee: 0.05
 ng_term: 5

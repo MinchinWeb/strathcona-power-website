@@ -9,7 +9,7 @@ natural_gas: True
 fixed_price: True
 admin_fee: 9
 site_fee: 0.19
-price: 5.49
+price: 5.37
 exit_fee: 250
 term: 5
 call_to_action: Sign Up!
