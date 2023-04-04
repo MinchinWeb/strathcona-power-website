@@ -44,13 +44,13 @@ def update(ctx, verbose=False):
             print()
             subtitle(f"** {requirement} **")
             print()
-            ctx.run(f"pip-compile {base_path / requirement}.in", hide=not verbose)
+            ctx.run(f"pip-compile {base_path / requirement}.in --upgrade", hide=not verbose)
             print(f"-r {requirement}.in", file=all_requirements_file)
 
     print()
     subtitle(f"** {all_requirements} **")
     print()
-    ctx.run(f"pip-compile {base_path / ALL_REQUIREMENT_FILE}.in", hide=not verbose)
+    ctx.run(f"pip-compile {base_path / ALL_REQUIREMENT_FILE}.in --upgrade", hide=not verbose)
 
 @task
 def upgrade(ctx, requirements_file="all", build=False, dev=False, verbose=False):
