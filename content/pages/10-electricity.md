@@ -8,7 +8,7 @@ electricity: True
 fixed_price: True
 admin_fee: 9
 site_fee: 0.49
-price: 10.9
+price: 11.05
 term: 5
 call_to_action: Go Fixed!
 call_to_action_url: https://billhub.ca/signup/strathconapower
