@@ -10,13 +10,13 @@ status: hidden
 article_listing: True
 footer: <img src="../images/strathcona-power-250x150-red.png" alt="Strathcona Power" class="center-block img-responsive" />
 
-Welcome!
+Deep roots, new power.
 
 <!-- Clear Description of who you are -->
 
-Offering Power and Natural Gas across Alberta from old Strathcona, Edmonton.
+Offering affordable Power and Natural Gas across Alberta from old Strathcona, Edmonton.
 
-We service homes, farms, and small commercial across the province.
+We service homes, farms, and small commercial locations across the province.
 
 <div class="row text-center" markdown=1>
   <div class="col-sm-6" markdown=1>
