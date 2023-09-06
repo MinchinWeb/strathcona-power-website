@@ -28,7 +28,7 @@ PAGINATOR_LIMIT = 6
 # these are relative to the base CONTENT folder
 STATIC_PATHS = [
     "images",
-    # "../extras",
+    "../extras",
     # "css",
     # "design",
     # "js",
@@ -46,6 +46,7 @@ EXTRA_PATH_METADATA = {
     "../README.txt": {"path": "README.txt"},
     # "../extras/favicon.ico": {"path": "favicon.ico"},
     "images/strathcona-power-16x16.png": {"path": "favicon.png"},
+    "../extras/BingSiteAuth.xml": {"path": "BingSiteAuth.xml"},
 }
 
 # MARKUP = ("rst", "md", "markdown", "mkd", "mdown", "html", "htm")
