@@ -9,13 +9,13 @@ beautifulsoup4==4.12.2
     #   minchin-pelican-plugins-post-stats
     #   pelican-image-process
     #   seafoam
-black==23.3.0
+black==23.7.0
     # via -r .requirements\dev.in
 blinker==1.6.2
     # via pelican
-build==0.10.0
+build==1.0.0
     # via pip-tools
-click==8.1.3
+click==8.1.7
     # via
     #   black
     #   pip-tools
@@ -30,9 +30,7 @@ feedgenerator==2.1.0
     # via pelican
 html5lib==1.1
     # via -r .requirements\build.in
-htmlmin==0.1.12
-    # via pelican-minify
-invoke==2.1.2
+invoke==2.2.0
     # via
     #   -r .requirements\build.in
     #   -r .requirements\dev.in
@@ -41,47 +39,51 @@ isort==5.12.0
 jinja2==3.1.2
     # via
     #   -r .requirements\build.in
+    #   minchin-pelican-plugins-cname
     #   pelican
-joblib==1.2.0
-    # via pelican-minify
-lxml==4.9.2
+lxml==4.9.3
     # via
     #   -r .requirements\build.in
     #   pelican-image-process
-markdown==3.4.3
+markdown==3.4.4
     # via -r .requirements\build.in
-markdown-it-py==2.2.0
+markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-minchin-pelican-plugins-autoloader==1.1.0
+minchin-pelican-plugins-autoloader==1.2.1
     # via
     #   -r .requirements\build.in
+    #   minchin-pelican-plugins-cname
+    #   minchin-pelican-plugins-nojekyll
     #   minchin-pelican-plugins-optimize-images
+    #   minchin-pelican-plugins-post-stats
     #   minchin-pelican-plugins-summary
-minchin-pelican-plugins-cname==1.2.1
+minchin-pelican-plugins-cname==1.3.4
     # via -r .requirements\build.in
-minchin-pelican-plugins-nojekyll==1.1.1
+minchin-pelican-plugins-nojekyll==1.2.0
     # via -r .requirements\build.in
-minchin-pelican-plugins-optimize-images==1.2.1
+minchin-pelican-plugins-optimize-images==1.2.2
     # via -r .requirements\build.in
-minchin-pelican-plugins-post-stats==1.1.1
+minchin-pelican-plugins-post-stats==1.2.0
     # via -r .requirements\build.in
-minchin-pelican-plugins-summary==1.2.0
+minchin-pelican-plugins-summary==1.2.1
     # via -r .requirements\build.in
 minchin-text==6.1.0
     # via
     #   -r .requirements\build.in
     #   -r .requirements\dev.in
+minify-html==0.11.1
+    # via pelican-minify
 mypy-extensions==1.0.0
     # via black
 packaging==23.1
     # via
     #   black
     #   build
-pathspec==0.11.1
+pathspec==0.11.2
     # via black
 pelican==4.8.0
     # via
@@ -106,34 +108,35 @@ pelican-image-process==3.0.3
     # via seafoam
 pelican-jinja-filters==2.1.1
     # via seafoam
-pelican-minify==0.9
+pelican-minify==2.0.0
     # via -r .requirements\build.in
 pelican-neighbors==1.2.0
     # via -r .requirements\build.in
-pillow==9.5.0
+pillow==10.0.0
     # via
     #   -r .requirements\build.in
     #   pelican-image-process
-pip-tools==6.13.0
+pip-tools==7.3.0
     # via
     #   -r .requirements\build.in
     #   -r .requirements\dev.in
-platformdirs==3.5.1
+platformdirs==3.10.0
     # via black
-pygments==2.15.1
+pygments==2.16.1
     # via
     #   -r .requirements\build.in
+    #   minchin-pelican-plugins-cname
     #   pelican
     #   rich
 pyproject-hooks==1.0.0
     # via build
 python-dateutil==2.8.2
     # via pelican
-pytz==2023.3
+pytz==2023.3.post1
     # via
     #   feedgenerator
     #   pelican
-rich==13.3.5
+rich==13.5.2
     # via pelican
 seafoam @ git+https://github.com/MinchinWeb/seafoam.git@master
     # via -r .requirements\build.in
@@ -149,7 +152,7 @@ six==1.16.0
     #   python-dateutil
 smartypants==2.0.1
     # via typogrify
-soupsieve==2.4.1
+soupsieve==2.5
     # via beautifulsoup4
 titlecase==2.4
     # via pelican-jinja-filters
@@ -161,7 +164,7 @@ webassets==2.0
     # via -r .requirements\build.in
 webencodings==0.5.1
     # via html5lib
-wheel==0.40.0
+wheel==0.41.2
     # via
     #   -r .requirements\dev.in
     #   pip-tools
