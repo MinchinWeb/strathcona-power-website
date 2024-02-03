@@ -18,8 +18,8 @@ html5lib
 # for beautifulsoup
 lxml
 # security forced updated
-jinja2 >= 2.11.3  # otherwise, via Pelican
-Pillow >= 9.1
+jinja2 >= 3.1.3  # otherwise, via Pelican
+Pillow >= 10.2.0
 Pygments >= 2.7.4  # otherwise, via Pelican
 lxml >= 4.6.5
 
