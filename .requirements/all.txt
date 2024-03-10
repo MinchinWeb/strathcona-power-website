@@ -4,18 +4,18 @@
 #
 #    pip-compile '.requirements\all.in'
 #
-anyio==4.2.0
+anyio==4.3.0
     # via watchfiles
 beautifulsoup4==4.12.3
     # via
     #   minchin-pelican-plugins-post-stats
     #   pelican-image-process
     #   seafoam
-black==24.1.1
+black==24.2.0
     # via -r .requirements\dev.in
 blinker==1.7.0
     # via pelican
-build==1.0.3
+build==1.1.1
     # via pip-tools
 click==8.1.7
     # via
@@ -45,7 +45,7 @@ jinja2==3.1.3
     #   -r .requirements\build.in
     #   minchin-pelican-plugins-cname
     #   pelican
-lxml==4.9.4
+lxml==5.1.0
     # via
     #   -r .requirements\build.in
     #   pelican-image-process
@@ -79,8 +79,6 @@ minchin-text==6.1.0
     # via
     #   -r .requirements\build.in
     #   -r .requirements\dev.in
-minify-html==0.15.0
-    # via pelican-minify
 mypy-extensions==1.0.0
     # via black
 ordered-set==4.1.0
@@ -103,26 +101,23 @@ pelican==4.9.1
     #   pelican-alias
     #   pelican-image-process
     #   pelican-jinja-filters
-    #   pelican-minify
     #   pelican-neighbors
     #   seafoam
 pelican-alias==1.1
     # via -r .requirements\build.in
 pelican-extended-sitemap==1.2.3
     # via -r .requirements\build.in
-pelican-image-process==3.0.3
+pelican-image-process==3.0.4
     # via seafoam
 pelican-jinja-filters==2.1.1
     # via seafoam
-pelican-minify==2.0.0
-    # via -r .requirements\build.in
 pelican-neighbors==1.2.0
     # via -r .requirements\build.in
 pillow==10.2.0
     # via
     #   -r .requirements\build.in
     #   pelican-image-process
-pip-tools==7.3.0
+pip-tools==7.4.1
     # via
     #   -r .requirements\build.in
     #   -r .requirements\dev.in
@@ -135,14 +130,16 @@ pygments==2.17.2
     #   pelican
     #   rich
 pyproject-hooks==1.0.0
-    # via build
-python-dateutil==2.8.2
+    # via
+    #   build
+    #   pip-tools
+python-dateutil==2.9.0.post0
     # via pelican
 pytz==2024.1
     # via feedgenerator
-rich==13.7.0
+rich==13.7.1
     # via pelican
-seafoam @ git+https://github.com/MinchinWeb/seafoam.git@master
+seafoam==2.9.2
     # via -r .requirements\build.in
 semantic-version==2.10.0
     # via
@@ -152,11 +149,10 @@ semantic-version==2.10.0
 six==1.16.0
     # via
     #   html5lib
-    #   pelican-image-process
     #   python-dateutil
 smartypants==2.0.1
     # via typogrify
-sniffio==1.3.0
+sniffio==1.3.1
     # via anyio
 soupsieve==2.5
     # via beautifulsoup4
@@ -164,7 +160,7 @@ titlecase==2.4.1
     # via pelican-jinja-filters
 typogrify==2.0.7
     # via -r .requirements\build.in
-tzdata==2023.4
+tzdata==2024.1
     # via pelican
 unidecode==1.3.8
     # via pelican

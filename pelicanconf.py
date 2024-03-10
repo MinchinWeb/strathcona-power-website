@@ -10,6 +10,10 @@ SITENAME = "Strathcona Power"
 SITEURL = ""
 SITE_ROOT_URL = "/"
 
+_EXCLUDES = [
+    "output",
+]
+
 TIMEZONE = "America/Edmonton"
 
 DEFAULT_LANG = "en"
@@ -52,6 +56,12 @@ EXTRA_PATH_METADATA = {
 # MARKUP = ("rst", "md", "markdown", "mkd", "mdown", "html", "htm")
 PATH = "content"
 # OUTPUT_PATH = '../strathcona-power-website-temp/'  # default is 'output/'
+ARTICLE_EXCLUDES = [
+    #...
+] + _EXCLUDES
+PAGE_EXCLUES = [
+    #...
+] + _EXCLUDES
 
 # Set URL's
 TAG_URL = "label/{slug}/"

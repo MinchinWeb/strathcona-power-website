@@ -8,10 +8,10 @@ minchin.pelican.plugins.post_stats
 minchin.pelican.plugins.summary >= 1.2.0
 pelican-alias
 pelican-extended-sitemap
-pelican-minify
+# pelican-minify  # breaks jquery
 pelican-neighbors
-# seafoam >= 2.8.0
-seafoam @ git+https://github.com/MinchinWeb/seafoam.git@master
+seafoam >= 2.8.0
+# seafoam @ git+https://github.com/MinchinWeb/seafoam.git@master
 typogrify
 webassets >= 0.12.1
 html5lib
