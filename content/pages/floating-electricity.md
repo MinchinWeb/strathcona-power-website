@@ -12,6 +12,7 @@ price: 0.99
 call_to_action: Sign Up!
 call_to_action_url: https://billhub.ca/signup/strathconapower
 summary:
+copy_date: 2023-24
 
 We offer both [fixed]({filename}fixed-electricity.md) and floating
 electricity rates.

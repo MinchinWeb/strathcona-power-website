@@ -110,7 +110,7 @@ USE_OPEN_GRAPH = True
 DOCUTIL_CSS = False
 CUSTOM_JS_LIST = []
 # update copyright date automatically
-INDEX_COPY_DATE = "20{}".format(str(date.today().year)[-2:])
+# INDEX_COPY_DATE = "20{}".format(str(date.today().year)[-2:])
 TAGS_TEXT = "Labels"
 NAVBAR_ON_TOP = True
 DISPLAY_ARCHIVES_ON_MENU = False

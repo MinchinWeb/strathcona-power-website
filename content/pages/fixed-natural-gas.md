@@ -15,6 +15,7 @@ term: 5
 call_to_action: Sign Up!
 call_to_action_url: https://billhub.ca/signup/strathconapower
 summary:
+copy_date: 2023-24
 
 We offer both fixed and [floating]({filename}floating-natural-gas.md) natural
 gas rates. We also offer a [1 year fixed]({filename}fixed-natural-gas-1-yr.md)

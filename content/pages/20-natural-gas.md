@@ -12,6 +12,7 @@ price: 0.89
 call_to_action: Go Floating!
 call_to_action_url: https://billhub.ca/signup/strathconapower
 summary: We offer [1 year]({filename}fixed-natural-gas-1-yr.md) and [5 year]({filename}fixed-natural-gas.md) fixed and [floating]({filename}floating-natural-gas.md) natural gas rates. Right now, **our recommendation is our floating natural gas rate**.
+copy_date: 2023-24
 
 All rates are subject to an administration fee, as well as distribution and
 transmission fees.

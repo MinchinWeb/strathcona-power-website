@@ -13,6 +13,7 @@ term: 5
 call_to_action: Go Fixed!
 call_to_action_url: https://billhub.ca/signup/strathconapower
 summary:  We offer both [fixed]({filename}fixed-electricity.md) and [floating]({filename}floating-electricity.md) electricity rates. Right now, **our recommendation is our fixed electricity rate**.
+copy_date: 2023-24
 
 All rates are subject to an administration fee, as well as distribution and
 transmission fees.

@@ -14,6 +14,7 @@ term: 5
 call_to_action: Sign Up!
 call_to_action_url: https://billhub.ca/signup/strathconapower
 summary: This is our recommend rate!
+copy_date: 2023-24
 
 We offer both fixed and [floating]({filename}floating-electricity.md)
 electricity rates.

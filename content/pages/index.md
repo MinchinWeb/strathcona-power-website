@@ -9,6 +9,7 @@ save_as: index.html
 status: hidden
 article_listing: True
 footer: <img src="../images/strathcona-power-250x150-red.png" alt="Strathcona Power" class="center-block img-responsive" />
+copy_date: 2023-24
 
 Deep roots, new power.
 
