@@ -1,6 +1,6 @@
 title: Electricity
 recommend: fixed
-updated: 2024-02-03 12:48
+updated: 2024-06-07 11:14
 template: strathcona/pricing
 url: electricity/
 save_as: electricity/index.html
@@ -8,7 +8,7 @@ electricity: True
 fixed_price: True
 admin_fee: 9
 site_fee: 0.49
-price: 10.46
+price: 8.99
 term: 5
 call_to_action: Go Fixed!
 call_to_action_url: https://billhub.ca/signup/strathconapower
