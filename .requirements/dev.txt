@@ -4,7 +4,7 @@
 #
 #    pip-compile '.requirements\dev.in'
 #
-black==24.4.2
+black==24.8.0
     # via -r .requirements\dev.in
 build==1.2.1
     # via pip-tools
@@ -25,7 +25,7 @@ minchin-text==6.1.0
     # via -r .requirements\dev.in
 mypy-extensions==1.0.0
     # via black
-packaging==24.0
+packaging==24.1
     # via
     #   black
     #   build
@@ -39,7 +39,7 @@ pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
-wheel==0.43.0
+wheel==0.44.0
     # via
     #   -r .requirements\dev.in
     #   pip-tools
