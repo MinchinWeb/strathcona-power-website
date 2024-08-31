@@ -14,8 +14,9 @@ call_to_action_url: https://billhub.ca/signup/strathconapower
 summary:
 copy_date: 2023-24
 
-We offer both [fixed]({filename}fixed-electricity.md) and floating
-electricity rates.
+We offer both fixed and floating electricity rates. We offer [1
+year]({filename}fixed-electricity-1-yr.md) and [5
+year]({filename}fixed-electricity.md) fixed rates.
 
 All rates are subject to an administration fee, as well as distribution and
 transmission fees.
