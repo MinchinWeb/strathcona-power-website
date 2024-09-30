@@ -12,7 +12,7 @@ change as time goes by.
 
 For power, the floating prices remain very high (up to ~32 &cent;/kWh in
 recent months), and there is no indication that they are expected to fall in
-the near future. Fixed prices (at ~11 &cent;/kWh) remain high mby historical
+the near future. Fixed prices (at ~11 &cent;/kWh) remain high by historical
 standards, but are downright cheap in comparision. **For electricity, go with a
 fixed rate.** Our fixed prices have slowly been increasing month over month,
 but if (when) they drop again, you can always swap to our new, lower rate at no
