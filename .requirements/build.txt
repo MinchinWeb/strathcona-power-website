@@ -4,18 +4,18 @@
 #
 #    pip-compile '.requirements\build.in'
 #
-anyio==4.4.0
+anyio==4.8.0
     # via watchfiles
 beautifulsoup4==4.12.3
     # via
     #   minchin-pelican-plugins-post-stats
     #   pelican-image-process
     #   seafoam
-blinker==1.8.2
+blinker==1.9.0
     # via pelican
-build==1.2.1
+build==1.2.2.post1
     # via pip-tools
-click==8.1.7
+click==8.1.8
     # via pip-tools
 colorama==0.4.6
     # via
@@ -28,11 +28,11 @@ feedgenerator==2.1.0
     # via pelican
 html5lib==1.1
     # via -r .requirements\build.in
-idna==3.8
+idna==3.10
     # via anyio
 invoke==2.2.0
     # via -r .requirements\build.in
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   -r .requirements\build.in
     #   minchin-pelican-plugins-cname
@@ -45,7 +45,7 @@ markdown==3.7
     # via -r .requirements\build.in
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.5
+markupsafe==3.0.2
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
@@ -65,15 +65,15 @@ minchin-pelican-plugins-optimize-images==1.2.2
     # via -r .requirements\build.in
 minchin-pelican-plugins-post-stats==1.2.0
     # via -r .requirements\build.in
-minchin-pelican-plugins-summary==1.2.1
+minchin-pelican-plugins-summary==1.3.0
     # via -r .requirements\build.in
 minchin-text==6.1.0
     # via -r .requirements\build.in
 ordered-set==4.1.0
     # via pelican
-packaging==24.1
+packaging==24.2
     # via build
-pelican==4.9.1
+pelican==4.10.2
     # via
     #   -r .requirements\build.in
     #   minchin-pelican-plugins-autoloader
@@ -97,36 +97,36 @@ pelican-jinja-filters==2.1.1
     # via seafoam
 pelican-neighbors==1.2.0
     # via -r .requirements\build.in
-pillow==10.4.0
+pillow==11.1.0
     # via
     #   -r .requirements\build.in
     #   pelican-image-process
 pip-tools==7.4.1
     # via -r .requirements\build.in
-pygments==2.18.0
+pygments==2.19.1
     # via
     #   -r .requirements\build.in
     #   minchin-pelican-plugins-cname
     #   pelican
     #   rich
-pyproject-hooks==1.1.0
+pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
 python-dateutil==2.9.0.post0
     # via pelican
-pytz==2024.1
+pytz==2024.2
     # via feedgenerator
-rich==13.8.0
+rich==13.9.4
     # via pelican
-seafoam==2.10.2
+seafoam==2.10.3
     # via -r .requirements\build.in
 semantic-version==2.10.0
     # via
     #   minchin-pelican-plugins-autoloader
     #   minchin-pelican-plugins-summary
     #   seafoam
-six==1.16.0
+six==1.17.0
     # via
     #   html5lib
     #   python-dateutil
@@ -138,19 +138,21 @@ soupsieve==2.6
     # via beautifulsoup4
 titlecase==2.4.1
     # via pelican-jinja-filters
+typing-extensions==4.12.2
+    # via anyio
 typogrify==2.0.7
     # via -r .requirements\build.in
-tzdata==2024.1
+tzdata==2024.2
     # via pelican
 unidecode==1.3.8
     # via pelican
-watchfiles==0.24.0
+watchfiles==1.0.3
     # via pelican
 webassets==2.0
     # via -r .requirements\build.in
 webencodings==0.5.1
     # via html5lib
-wheel==0.44.0
+wheel==0.45.1
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
