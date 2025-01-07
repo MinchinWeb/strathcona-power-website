@@ -1,6 +1,6 @@
 title: About Strathcona Power
 menulabel: About Us
-copy_date: 2023-24
+copy_date: 2023-25
 
 Headquartered from old Strathcona, Strathcona Power is an Edmonton, Alberta
 based retailer of power (electricity) and natural gas.

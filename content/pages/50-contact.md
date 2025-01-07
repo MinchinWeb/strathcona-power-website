@@ -1,6 +1,6 @@
 title: Contact Us
 menulabel: Contact Us
-copy_date: 2023-24
+copy_date: 2023-25
 
 To contact us, best is email:
 [CustomerCare@StrathconaPower.ca](mailto:customercare@strathconapower.ca?subject=Website question).
