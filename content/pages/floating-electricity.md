@@ -11,7 +11,7 @@ admin_fee: 9
 price: 0.99
 call_to_action: Sign Up!
 call_to_action_url: https://billhub.ca/signup/strathconapower
-summary:
+summary: This is our recommend rate!
 copy_date: 2023-25
 
 We offer both fixed and floating electricity rates. We offer
