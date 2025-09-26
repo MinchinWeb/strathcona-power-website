@@ -2,6 +2,7 @@ title: Solar and Microgeneration in Alberta
 menulabel: Solar
 slug: solar
 copy_date: 2025
+updated: 2025-09-26 10:50
 
 Alberta has a vey generous microgeneration regulation that allows you to sell
 your extra solar power produced back to the grid!
@@ -24,7 +25,7 @@ called a **Solar Club Rate.**
 
                 </h5>
                 <h6 class="panel-title card-price text-center">
-                    30 ¢<span class="period">/kWh</span>
+                    33.33 ¢<span class="period">/kWh</span>
                 </h6>
             </div>  <!-- panel heading -->
             <div class="panel-body">
@@ -48,9 +49,10 @@ called a **Solar Club Rate.**
     </div>  <!-- container -->
 </section>
 
-To sign up for this rate, complete a "normal" setup, and then send our Customer
-Care team an [email](mailto:customercare@strathconapower.ca?subject=Solar Club
-signup) that you'd like to be on our Mirogeneration rate!
+To sign up for this rate, complete a "normal" setup, and click the "Got Solar?"
+box on the first page of the signup form. On the backend, we'll monitor your
+generation and consumption, and optimize your pricing using AI, so you don't
+have to worry about managing your switchover date.
 
 This rate is available to all mircogenerators in the province; you don't have
 to have solar (micro-hydro or a windmill anyone?). If you have any questions
