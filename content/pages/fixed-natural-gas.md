@@ -1,6 +1,6 @@
-title: Fixed Natural Gas
+title: Fixed Natural Gas (5 Year)
 date: 2023-02-28 17:55
-updated: 2025-08-01 21:45
+updated: 2025-10-02 18:25
 template: strathcona/pricing
 url: natural-gas/fixed/
 save_as: natural-gas/fixed/index.html
@@ -9,7 +9,7 @@ natural_gas: True
 fixed_price: True
 admin_fee: 9
 site_fee: 0.19
-price: 4.49
+price: 4.29
 exit_fee: 250
 term: 5
 call_to_action: Sign Up!
@@ -18,7 +18,8 @@ summary:
 copy_date: 2023-25
 
 We offer both fixed and [floating]({filename}floating-natural-gas.md) natural
-gas rates. We also offer a [1 year]({filename}fixed-natural-gas-1-yr.md) and
+gas rates. We also offer a [1 year]({filename}fixed-natural-gas-1-yr.md),
+[2 year]({filename}fixed-natural-gas-2-yr.md), and
 [3 year]({filename}fixed-natural-gas-3-yr.md) fixed natural gas rates.
 
 All rates are subject to an administration fee, as well as distribution and
