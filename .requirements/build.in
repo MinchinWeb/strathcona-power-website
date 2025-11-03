@@ -22,6 +22,9 @@ lxml
 # autoloader 1.2.2 breaks on PEP440 versioning
 pelican != 4.11.0.post0
 
+# explicity required on GitHub CI Linux builds
+pytz
+
 # security forced updated
 jinja2 >= 3.1.6  # otherwise, via Pelican
 Pillow >= 10.2.0
