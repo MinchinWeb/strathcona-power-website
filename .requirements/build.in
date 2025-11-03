@@ -15,8 +15,13 @@ seafoam >= 2.8.0
 typogrify
 webassets >= 0.12.1
 html5lib
+
 # for beautifulsoup
 lxml
+
+# autoloader 1.2.2 breaks on PEP440 versioning
+pelican != 4.11.0.post0
+
 # security forced updated
 jinja2 >= 3.1.6  # otherwise, via Pelican
 Pillow >= 10.2.0

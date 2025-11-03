@@ -4,20 +4,20 @@
 #
 #    pip-compile '.requirements\all.in'
 #
-anyio==4.8.0
+anyio==4.11.0
     # via watchfiles
-beautifulsoup4==4.13.3
+beautifulsoup4==4.14.2
     # via
     #   minchin-pelican-plugins-post-stats
     #   pelican-image-process
     #   seafoam
-black==25.1.0
+black==25.9.0
     # via -r .requirements/dev.in
 blinker==1.9.0
     # via pelican
-build==1.2.2.post1
+build==1.3.0
     # via pip-tools
-click==8.1.8
+click==8.3.0
     # via
     #   black
     #   pip-tools
@@ -26,38 +26,38 @@ colorama==0.4.6
     #   build
     #   click
     #   minchin-text
-docutils==0.21.2
+docutils==0.22.2
     # via pelican
-feedgenerator==2.1.0
+feedgenerator==2.2.1
     # via pelican
 html5lib==1.1
     # via -r .requirements/build.in
-idna==3.10
+idna==3.11
     # via anyio
-invoke==2.2.0
+invoke==2.2.1
     # via
     #   -r .requirements/build.in
     #   -r .requirements/dev.in
-isort==6.0.1
+isort==7.0.0
     # via -r .requirements/dev.in
 jinja2==3.1.6
     # via
     #   -r .requirements/build.in
     #   minchin-pelican-plugins-cname
     #   pelican
-lxml==5.3.1
+lxml==6.0.2
     # via
     #   -r .requirements/build.in
     #   pelican-image-process
-markdown==3.7
+markdown==3.9
     # via -r .requirements/build.in
-markdown-it-py==3.0.0
+markdown-it-py==4.0.0
     # via rich
-markupsafe==3.0.2
+markupsafe==3.0.3
     # via jinja2
 mdurl==0.1.2
     # via markdown-it-py
-minchin-pelican-plugins-autoloader==1.2.1
+minchin-pelican-plugins-autoloader==1.2.2
     # via
     #   -r .requirements/build.in
     #   minchin-pelican-plugins-cname
@@ -65,25 +65,25 @@ minchin-pelican-plugins-autoloader==1.2.1
     #   minchin-pelican-plugins-optimize-images
     #   minchin-pelican-plugins-post-stats
     #   minchin-pelican-plugins-summary
-minchin-pelican-plugins-cname==1.3.4
+minchin-pelican-plugins-cname==1.4.0
     # via -r .requirements/build.in
 minchin-pelican-plugins-nojekyll==1.2.0
     # via -r .requirements/build.in
-minchin-pelican-plugins-optimize-images==1.2.2
+minchin-pelican-plugins-optimize-images==1.3.0
     # via -r .requirements/build.in
-minchin-pelican-plugins-post-stats==1.2.0
+minchin-pelican-plugins-post-stats==1.3.1
     # via -r .requirements/build.in
 minchin-pelican-plugins-summary==1.3.0
     # via -r .requirements/build.in
-minchin-text==6.1.0
+minchin-text==7.0.0
     # via
     #   -r .requirements/build.in
     #   -r .requirements/dev.in
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
     # via black
 ordered-set==4.1.0
     # via pelican
-packaging==24.2
+packaging==25.0
     # via
     #   black
     #   build
@@ -107,21 +107,21 @@ pelican-alias==1.1
     # via -r .requirements/build.in
 pelican-extended-sitemap==1.2.3
     # via -r .requirements/build.in
-pelican-image-process==3.0.4
+pelican-image-process==3.1.0
     # via seafoam
 pelican-jinja-filters==2.1.1
     # via seafoam
 pelican-neighbors==1.2.0
     # via -r .requirements/build.in
-pillow==11.1.0
+pillow==12.0.0
     # via
     #   -r .requirements/build.in
     #   pelican-image-process
-pip-tools==7.4.1
+pip-tools==7.5.1
     # via
     #   -r .requirements/build.in
     #   -r .requirements/dev.in
-platformdirs==4.3.6
+platformdirs==4.5.0
     # via black
 pygments==2.18.0
     # via
@@ -135,11 +135,13 @@ pyproject-hooks==1.2.0
     #   pip-tools
 python-dateutil==2.9.0.post0
     # via pelican
-pytz==2025.1
-    # via feedgenerator
-rich==13.9.4
+pytokens==0.2.0
+    # via black
+pyyaml==6.0.3
+    # via webassets
+rich==14.2.0
     # via pelican
-seafoam==2.10.3
+seafoam==2.13.0
     # via -r .requirements/build.in
 semantic-version==2.10.0
     # via
@@ -150,25 +152,27 @@ six==1.17.0
     # via
     #   html5lib
     #   python-dateutil
-smartypants==2.0.1
+smartypants==2.0.2
     # via typogrify
 sniffio==1.3.1
     # via anyio
-soupsieve==2.6
+soupsieve==2.8
     # via beautifulsoup4
 titlecase==2.4.1
     # via pelican-jinja-filters
-typing-extensions==4.12.2
+typing-extensions==4.15.0
     # via beautifulsoup4
 typogrify==2.1.0
     # via -r .requirements/build.in
-tzdata==2025.1
+tzdata==2025.2
+    # via
+    #   feedgenerator
+    #   pelican
+unidecode==1.4.0
     # via pelican
-unidecode==1.3.8
+watchfiles==1.1.1
     # via pelican
-watchfiles==1.0.4
-    # via pelican
-webassets==2.0
+webassets==3.0.0
     # via -r .requirements/build.in
 webencodings==0.5.1
     # via html5lib
@@ -176,6 +180,8 @@ wheel==0.45.1
     # via
     #   -r .requirements/dev.in
     #   pip-tools
+zope-dottedname==7.0
+    # via webassets
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
