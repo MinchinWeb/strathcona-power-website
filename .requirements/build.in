@@ -1,6 +1,6 @@
 pelican
 markdown
-minchin.pelican.plugins.autoloader
+minchin.pelican.plugins.autoloader >= 1.2.3  # to not break on PEP440 versioning
 minchin.pelican.plugins.cname
 minchin.pelican.plugins.nojekyll
 minchin.pelican.plugins.optimize_images
@@ -18,9 +18,6 @@ html5lib
 
 # for beautifulsoup
 lxml
-
-# autoloader 1.2.2 breaks on PEP440 versioning
-pelican != 4.11.0.post0
 
 # explicity required on GitHub CI Linux builds
 pytz
