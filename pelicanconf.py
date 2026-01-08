@@ -48,8 +48,8 @@ EXTRA_PATH_METADATA = {
     "../.gitattributes": {"path": ".gitattributes"},
     "../.gitignore": {"path": ".gitignore"},
     "../README.txt": {"path": "README.txt"},
-    # "../extras/favicon.ico": {"path": "favicon.ico"},
-    "images/strathcona-power-16x16.png": {"path": "favicon.png"},
+    "../extras/favicon.ico": {"path": "favicon.ico"},
+    # "images/strathcona-power-16x16.png": {"path": "favicon.png"},
     "../extras/BingSiteAuth.xml": {"path": "BingSiteAuth.xml"},
 }
 
@@ -109,8 +109,10 @@ PAGE_SAVE_AS = "{slug}/index.html"
 # Theme Related
 SEAFOAM_DEV_MODE = True
 TYPOGRIFY = True
-SITELOGO = "images/strathcona-power-250x150-white-crop.png"
-SITELOGO_SIZE = "100%"
+# SITELOGO = "images/strathcona-power-250x150-white-crop.png"
+SITELOGO = "images/strathcona-power-v2.4-white.svg"
+# SITELOGO_SIZE = "100%"
+SITELOGO_SIZE = "250px"
 PYGMENTS_STYLE = "friendly"
 DISPLAY_BREADCRUMBS = False
 FAVICON = "favicon.ico"
