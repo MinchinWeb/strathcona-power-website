@@ -1,7 +1,7 @@
 title: Solar and Microgeneration in Alberta
 menulabel: Solar
 slug: solar
-copy_date: 2025
+copy_date: 2025-26
 updated: 2025-09-26 10:50
 
 Alberta has a vey generous microgeneration regulation that allows you to sell
