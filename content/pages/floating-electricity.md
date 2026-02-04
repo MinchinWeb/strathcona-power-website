@@ -1,14 +1,14 @@
 title: Floating Electricity
 date: 2023-02-28 17:55
-updated: 2025-01-06 18:41
+updated: 2026-02-04 11:02
 template: strathcona/pricing
 url: electricity/floating/
 save_as: electricity/floating/index.html
 status: hidden
 electricity: True
 floating_price: True
-admin_fee: 9
-price: 0.99
+admin_fee: 10.99
+price: 1
 call_to_action: Sign Up!
 call_to_action_url: https://billhub.ca/signup/strathconapower
 summary: This is our recommend rate!

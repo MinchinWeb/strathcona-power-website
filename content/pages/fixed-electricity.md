@@ -1,15 +1,14 @@
 title: Fixed Electricity (5 Year)
 date: 2023-02-28 17:55
-updated: 2025-12-04 13:53
+updated: 2026-02-04 11:02
 template: strathcona/pricing
 url: electricity/fixed/
 save_as: electricity/fixed/index.html
 status: hidden
 electricity: True
 fixed_price: True
-admin_fee: 9
-site_fee: 0.49
-price: 9.89
+admin_fee: 22.99
+price: 9.69
 term: 5
 call_to_action: Sign Up!
 call_to_action_url: https://billhub.ca/signup/strathconapower
