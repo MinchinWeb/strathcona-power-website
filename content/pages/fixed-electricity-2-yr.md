@@ -1,4 +1,4 @@
-title: Fixed Electricity (2 Year)
+title: Fixed Electricity (2 year)
 date: 2025-10-02 18:16
 updated: 2026-03-2 12:32
 template: strathcona/pricing

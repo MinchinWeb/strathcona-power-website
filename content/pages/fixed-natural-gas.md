@@ -1,4 +1,4 @@
-title: Fixed Natural Gas (5 Year)
+title: Fixed Natural Gas (5 year)
 date: 2023-02-28 17:55
 updated: 2026-02-04 11:02
 template: strathcona/pricing
