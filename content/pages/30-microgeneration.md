@@ -4,7 +4,7 @@ slug: solar
 copy_date: 2025-26
 updated: 2026-03-09 16:01
 
-Alberta has a vey generous microgeneration regulation that allows you to sell
+Alberta has a very generous microgeneration regulation that allows you to sell
 your extra solar power produced back to the grid!
 
 One condition of the rate structure is the retail price you pay is *the same
