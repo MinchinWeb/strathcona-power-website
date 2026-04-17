@@ -4,10 +4,38 @@ copy_date: 2006
 updated: 2026-04-14 15:57
 status: hidden
 
+<!-- Hero Image -->
+
 As an ongoing fundraiser, we have partnered with a variety of organizations,
 and we are happy to partner with more! Strathcona Power donates a portion of
 each enrolled site's monthly bill to our fundraising partners.
 
+### Whose our currently active partners?
+
+Use your assigned Promo Code and write the organization name in the comments
+section of the signup form.
+
+Current Promo (Fundraising) Codes:
+
+- **DX** (Dance Experience)
+- **GR** (École Gabrielle-Roy Parents' Society)
+- **MJ** (École Michaelle-Jean Parents' Society)
+
+### Who can sign up?
+
+Strathcona Power provides power and gas to almost every area of Alberta. Any
+sign-ups in Alberta that identify your fundraising organization in the promo
+code and/or comments will be added to the Fundraiser. Encourage your family
+and grandparents to sign up!
+
+<div class="row text-center" markdown=1>
+  <div class="col-xs-12" markdown=1>
+  <!-- obvious Call to Action -->
+  <button type="button" class="btn btn-lg btn-primary text-center" markdown=1>
+[Sign up now!](https://billhub.ca/signup/strathconapower)
+  </button>
+  </div>
+</div>
 
 ### Why does Strathcona Power fundraise?
 
@@ -27,76 +55,68 @@ Strathcona Power will generate income for the fundraising organization forever
 details on how much money an organization can expect to make through the
 fundraiser.
 
+### I'd like to fundraise with you. How do I sign up?
+
 If you would like to fundraise with Strathcona Power, we'll get you set up with
 a promo code and advertising materials. Please contact Marcy at
 [marcy@strathconapower.ca](mailto:marcy@strathconapower.ca?subject=Fundraiser
 Signup).
 
-
-### How do I identify my organization as the benefactor when I sign up?
-
-Use your assigned Promo Code and write the organization name in the comments
-section of the signup form.
-
-Current Promo (Fundraising) Codes:
-
-- DX (Dance Experience)
-- GR (École Gabrielle-Roy Parents' Society)
-- MJ (École Michaelle-Jean Parents' Society)
-
-### Who can sign up?
-
-Strathcona Power provides power and gas to almost every area of Alberta. Any
-sign-ups in Alberta that identify your fundraising organization in the promo
-code and/or comments will be added to the Fundraiser. Encourage your family
-and grandparents to sign up!
-
 ### How much money will the fundraising organization receive from this fundraiser?
 
-If you have 10 families sign up, you’ll make $1200+ per year.
+If you have 10 families sign up, you’ll make $1,200+ per year.
 
-If you have 25 families sign up, you’ll make $3000+ per year.
+If you have 25 families sign up, you’ll make $3,000+ per year.
 
-Small businesses often will generate more than a home - sign them up!
+These funds can be used by your organization for whatever your needs are and so
+are great in situations when you need "matching funds" for another grant
+program.
 
-Sign up your church building or community league or business utilities, and
-jumpstart your fundraiser.
+Small businesses and houses with solar panels often will generate more than a
+"regular" home -- sign them up!
+
+Sign up your church building or clubhouse or community league or business
+utilities, and jumpstart your fundraiser.
 
 
 #### How it works:
 
 The fundraising organization will receive approximately $5/month[^1] per
 utility signup of a single family home. For example, if a family signs up for
-electricity and gas with Strathcona Power, the organization will receive
-~$10/month for as long as they remain signed up with Strathcona Power. That’s a
-great deal!
+electricity and gas with Strathcona Power, the organization will receive double
+that -- ~$10/month -- for as long as they remain signed up with Strathcona
+Power. That’s a great deal!
 
 [^1]: The contribution amount is tied to usage fluctuations in the energy
     market. In the winter, the allocation from a single family home will be a
     bit more than $5/month, in the summer it will be a bit less. The average is
-    $5/month.
+    ~$5/month.
 
 Homes with solar panels generate much more during the summer, so they are great
 additions to the fundraiser!
 
-Strathcona Power will send fundraiser cheques once a year to each organization, along with a report of how many sites they have enrolled.
+Strathcona Power will send fundraiser cheques once a year to each organization,
+along with a report of how many sites they have enrolled.
 
-#### Proof it works:
+#### Past success:
 
 In 2025, a fundraising organization had 10 homes signed up for both electricity
 and gas, and over a period of 9 months they received a fundraising income of
-$1,100!  
+$1,100! Help us write even bigger cheques!
+
+<!-- Big Cheque picture -->
 
 ### How much of Strathcona Power’s profits are they sharing with the organization through this fundraiser?
 
 Strathcona Power is donating 50% of their profits to the fundraising
-organization. Our company’s profit margin is 1 &cent;/kwh for electricity, and
+organization. Our company’s profit margin is ~1 &cent;/kwh for electricity, and
 we will be donating 50% of that.
 
 ### How can I see the rates, and how do I know if subscribing will save me money?
 
-You can find all our rates here:
-https://billhub.ca/signup/strathconapower
+You can find all our rates here: [Electricity]({filename}10-electricity.md) &
+[Natural Gas]({filename}20-natural-gas.md). The fundraising is valid with all
+of our rates.
 
 If you need help figuring out if one of our rates can save you money, don't
 hesitate to [email us](mailto:marcy@strathconapower.ca?subject=Fundraiser Bill
@@ -110,7 +130,7 @@ an updated recommendation. However, in general we currently recommend floating
 rates. They have consistently been lower than fixed rates since the beginning
 of 2025. We offer both [floating]({filename}floating-electricity.md) and
 [fixed]({filename}fixed-electricity.md) rates for power and [natural
-gas]({filename}floating-natural-gas.md).
+gas]({filename}floating-natural-gas.md) with terms up to 5 years.
 
 ### Does Strathcona Power offer a solar rate?
 
@@ -121,44 +141,43 @@ rate]({filename}30-microgeneration.md) is 35 &cent;/kwh.
 ### How do I sign up for the solar-club rate?
 
 When you sign up for electricity, choose the rate you would like to be on in
-the winter; Floating is our recommendation. Then click the "Got Solar" checkbox.
-We even manage switching between your winter and summer rates for you!
+the winter; [Floating]({filename}floating-electricity.md) is our
+recommendation. Then click the "Got Solar" checkbox. We even manage switching
+between your winter and summer rates for you!
 
 ### What are the steps for changing utility providers?
 
-Switching is simple. https://billhub.ca/signup/strathconapower
+Switching is simple.
 
 The signup form asks for your address and some information about you, and for
 payment information. We’ll reach out in the rare case we need anything more.
-Ten days later, you're flowing with us! Your first bill will come about six
+Two days later, you're flowing with us! Your first bill will come about six
 weeks after you complete the signup process.
 
 Note: It is not possible to be signed up with more than one retailer at a time,
-so signing up will automatically end your previous contract - you won’t be
+so signing up will automatically end your previous contract -- you won’t be
 double billed.
 
 ### What is the benefit to me to sign up with Strathcona Power?
 
 - For no additional cost to you, you will support your fundraising organization
   by participating in this ongoing fundraiser.
-- If the rates are better than what you’re currently paying, then we’ll save
-  you money!
-- No signup fees
-- Paperless billing
+- You will be supporting local! Strathcona Power is Alberta-owned and operated.
+  All our employees are Albertans.
 - Phone/email support by Albertans: You can contact us at any time with
   questions about your bill or how the utility systems work in Alberta, and
   there will be an Albertan on the other end. We are happy to discuss with you!
   Feel free to [email Marcy](mailto:marcy@strathconapower.ca)
 - Strathcona Power maintains competitive pricing, ensuring that you won’t be
   gouged for your utilities.
-- You will be supporting local! Strathcona Power is Alberta-owned and operated.
-  All our employees are Albertans.
+- No signup fees
+- Paperless billing
 
 ### How much does it cost me to switch utility providers?
 
 It does not cost anything to start using Strathcona Power as your utility
-provider. Check your current bill to see if you have a cancellation fee
-(cancellation fees are very rare these days).
+provider from our side. Check your current terms and conditions to see if you
+have a cancellation fee (but cancellation fees are *very* rare these days).
 
 ### What payment methods does Strathcona Power accept?
 
@@ -168,13 +187,6 @@ credit card and bank bill payments.
 ### How will I receive my bill?
 
 All bills are sent electronically via email.
-
-### Who can sign up?
-
-Strathcona Power provides power and gas to almost every area of Alberta.
-Encourage your family and grandparents to sign up! Any sign-ups in Alberta that
-identify your fundraising organization in the promo code and/or comments will
-be added to the Fundraiser. 
 
 ### What if I have more questions?
 
