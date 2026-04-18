@@ -10,7 +10,7 @@ As an ongoing fundraiser, we have partnered with a variety of organizations,
 and we are happy to partner with more! Strathcona Power donates a portion of
 each enrolled site's monthly bill to our fundraising partners.
 
-### Whose our currently active partners?
+### Who are our active fundraising partners?
 
 Use your assigned Promo Code and write the organization name in the comments
 section of the signup form.
