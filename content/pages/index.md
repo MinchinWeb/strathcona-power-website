@@ -8,7 +8,6 @@ header: images/halkirk-895.jpg
 save_as: index.html
 status: hidden
 article_listing: True
-footer: <img src="../images/strathcona-power-v2.4-detailed-450x150.png" alt="Strathcona Power" class="center-block img-responsive" />
 copy_date: 2023-26
 
 Deep roots, new power.

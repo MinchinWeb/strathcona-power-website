@@ -7,7 +7,7 @@ from minchin.pelican.plugins import autoloader
 
 AUTHOR = "Strathcona Power Ltd"
 SITENAME = "Strathcona Power"
-SITEURL = ""
+SITEURL = "//localhost:8000"
 SITE_ROOT_URL = "/"
 
 _EXCLUDES = [
@@ -106,6 +106,65 @@ PAGE_SAVE_AS = "{slug}/index.html"
 
 # DISPLAY_PAGES_ON_MENU = False
 
+FOOTER_ITEMS = (
+    (None, "col-md-4 col-sm-6", None),
+    ("Electricity", "header " + SITEURL + "/electricity/", None),
+        ("Floating", SITEURL + "/electricity/floating/", None),
+        ("1 Year Fixed", SITEURL + "/electricity/fixed/1-year/", None),
+        ("2 Year Fixed", SITEURL + "/electricity/fixed/2-year/", None),
+        ("3 Year Fixed", SITEURL + "/electricity/fixed/3-year/", None),
+        ("5 Year Fixed", SITEURL + "/electricity/fixed/", None),
+        ("Microgeneration Rate", SITEURL + "/solar/", None),
+        (None, "end-header", None),
+    (None, "end-col", None),
+
+    (None, "col-md-4 col-sm-6", None),
+    ("Natural Gas", "header "+ SITEURL + "/natural-gas/", None),
+        ("Floating", SITEURL + "/natural-gas/floating/", None),
+        ("1 Year Fixed", SITEURL + "/natural-gas/fixed/1-year/", None),
+        ("2 Year Fixed", SITEURL + "/natural-gas/fixed/2-year/", None),
+        ("3 Year Fixed", SITEURL + "/natural-gas/fixed/3-year/", None),
+        ("5 Year Fixed", SITEURL + "/natural-gas/fixed/", None),
+        (None, "end-header", None),
+    (None, "end-col", None),
+    (None, "clearfix visible-sm-block", None),
+
+    (None, "col-md-4 col-sm-6", None),
+    ("Solar Rates", SITEURL + "/solar/", None),
+    ("Behind-the-Fence Generation", SITEURL + "/behind-the-fence-generation/", None),
+    (None, "end-col", None),
+    (None, "clearfix visible-lg-block visible-md-block", None),
+
+    (None, "col-md-4 col-sm-6", None),
+    ("Our Story", SITEURL + "/about-strathcona-power/", None),  # About Us
+    ("Fundraisers", "header " + SITEURL + "/fundraising/", None),
+        # ("Dance Experience", SITEURL + "", None),
+        # ("École Gabrille-Roy", SITEURL + "", None),
+        # ("École Michaëlle-Jean", SITEURL + "", None),
+        (None, "end-header", None),
+    (None, "end-col", None),
+    (None, "clearfix visible-sm-block", None),
+
+    (None, "col-md-4 col-sm-6", None),
+    ("Blog", "header " + SITEURL + "/" + ARCHIVES_URL, None),
+        # ("Rate Updates", SITEURL + + "/" + CATEGORY_URL.format(slug="rate-updates") + "/", None),
+        ("Fixed vs Floating?", SITEURL + "/" + CATEGORY_URL.format(slug="fixed-vs-floating") + "/", None),
+        # ("Building in Public", SITEURL + "/" + CATEGORY_URL.format(slug="building-in-public") + "/", None),
+        # ("All Archives", SITEURL + "/" + ARCHIVES_URL, None),
+        (None, "end-header", None),
+    (None, "end-col", None),
+
+    (None, "col-md-4 col-sm-6", None),
+    ("Contact Us", SITEURL + "/contact-us/", None),
+    ("Sign Up", SITEURL + "/signup/", None),
+    ("My Account", SITEURL + "/account/", None),
+    ("Facebook", "https://www.facebook.com/people/Strathcona-Power/61586616562661/", "fa-brands fa-facebook"),
+    ("LinkedIn", "https://www.linkedin.com/company/strathconapower/", "fa-brands fa-linkedin"),
+    ("780-412-1065", "tel:+1-780-412-1065", "fas fa-phone"),  # phone number
+    ("CustomerCare @StrathconaPower.ca", "mailto:customercare@strathconapower.ca?subject=Website question)", "fas fa-envelope"),  # email
+    (None, "end-col", None),
+)
+
 # Theme Related
 SEAFOAM_DEV_MODE = True
 TYPOGRIFY = True
@@ -113,6 +172,7 @@ TYPOGRIFY = True
 SITELOGO = "images/strathcona-power-v2.4-white.svg"
 # SITELOGO_SIZE = "100%"
 SITELOGO_SIZE = "250px"
+FOOTER_SITELOGO = "images/strathcona-power-v2.4-detailed-450x150.png"
 PYGMENTS_STYLE = "friendly"
 DISPLAY_BREADCRUMBS = False
 FAVICON = "favicon.ico"
