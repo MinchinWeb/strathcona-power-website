@@ -70,6 +70,15 @@ TAGS_URL = "label/"
 TAGS_SAVE_AS = "label/index.html"
 CATEGORY_URL = "category/{slug}/"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
+CATEGORY_REGEX_SUBSTITUTIONS = [
+    (r"\.\.", "dotdot"),  # needed to keep a "phantom" category from throwing an error
+
+    # defaults
+    (r"[^\w\s-]", ""),   # remove non-alphabetical/whitespace/"-" chars
+    (r"(?u)\A\s*", ""),  # strip leading whitespace
+    (r"(?u)\s*\Z", ""),  # strip trailing whitespace
+    (r"[-\s]+", "-"),    # reduce multiple whitespace or "-" to single "-"
+]
 CATEGORIES_URL = "category/"
 CATEGORIES_SAVE_AS = "category/index.html"
 ARTICLE_URL = "{date:%Y}/{date:%m}/{slug}/"
