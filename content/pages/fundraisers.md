@@ -1,6 +1,6 @@
 title: Fundraise with Strathcona Power!
 slug: fundraising
-copy_date: 2006
+copy_date: 2026
 updated: 2026-04-14 15:57
 status: hidden
 
