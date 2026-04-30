@@ -71,7 +71,7 @@ TAGS_SAVE_AS = "label/index.html"
 CATEGORY_URL = "category/{slug}/"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 CATEGORY_REGEX_SUBSTITUTIONS = [
-    (r"\.\.", "dotdot"),  # needed to keep a "phantom" category from throwing an error
+    (r"\.\.", "-dotdot-"),  # needed to keep a "phantom" category from throwing an build error
 
     # defaults
     (r"[^\w\s-]", ""),   # remove non-alphabetical/whitespace/"-" chars
