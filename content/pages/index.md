@@ -1,13 +1,11 @@
 title: Strathcona Power
 url:
-jumbotron: True
-jumbotron_color: #8B6D49
-jumbotron_image: images/halkirk-895.jpg
+_jumbotron_color: #8B6D49
 image: images/halkirk-895.jpg
-header: images/halkirk-895.jpg
 save_as: index.html
 status: hidden
 article_listing: True
+article_listing_count: 4
 copy_date: 2023-26
 
 Deep roots, new power.

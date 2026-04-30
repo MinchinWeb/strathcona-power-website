@@ -25,7 +25,6 @@ DEFAULT_LANG = "en"
 
 DEFAULT_PAGINATION = 10
 # USE_PAGER = False
-PAGINATOR_LIMIT = 6
 
 
 # static paths will be copied under the same name
