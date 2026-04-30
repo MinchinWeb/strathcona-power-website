@@ -51,4 +51,4 @@ If you have any questions about signing up or your bill, drop us an email:
 
 ## Latest News
 
-<!-- Site Map -- in footer? -->
+<!-- Site Map -- in footer -->

@@ -1,6 +1,6 @@
 title: Floating Electricity
 date: 2023-02-28 17:55
-updated: 2026-02-04 11:02
+updated: 2026-04-24 10:14
 template: strathcona/pricing
 url: electricity/floating/
 save_as: electricity/floating/index.html
@@ -16,6 +16,7 @@ copy_date: 2023-26
 
 We offer both fixed and floating electricity rates. We offer
 [1 year]({filename}fixed-electricity-1-yr.md),
+[2 year]({filename}fixed-electricity-2-yr.md),
 [3 year]({filename}fixed-electricity-3-yr.md) and
 [5 year]({filename}fixed-electricity.md) fixed rates.
 

@@ -1,6 +1,6 @@
 title: Fixed Electricity (1 year)
 date: 2024-08-30 17:38
-updated: 2026-03-31 14:13
+updated: 2026-04-24 10:15
 template: strathcona/pricing
 url: electricity/fixed/1-year
 save_as: electricity/fixed/1-year/index.html
@@ -16,9 +16,9 @@ summary:
 copy_date: 2023-26
 
 We offer fixed and [floating]({filename}floating-electricity.md) electricity
-rates. We also offer a [2 year fixed]({filename}fixed-electricity-2-yr.md),
-[3 year fixed]({filename}fixed-electricity-3-yr.md) and
-[5 year fixed]({filename}fixed-electricity.md) rates.
+rates. We also offer a [2 year]({filename}fixed-electricity-2-yr.md),
+[3 year]({filename}fixed-electricity-3-yr.md), and
+[5 year]({filename}fixed-electricity.md) fixed rates.
 
 All rates are subject to an administration fee, as well as distribution and
 transmission fees.

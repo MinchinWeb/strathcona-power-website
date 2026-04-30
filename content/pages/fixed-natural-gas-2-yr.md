@@ -18,7 +18,7 @@ copy_date: 2023-26
 
 We offer fixed and [floating]({filename}floating-natural-gas.md) natural gas
 rates. We also offer a [1 year]({filename}fixed-natural-gas-1-yr.md),
-[3 year]({filename}fixed-natural-gas-3-yr.md) and
+[3 year]({filename}fixed-natural-gas-3-yr.md), and
 [5 year]({filename}fixed-natural-gas.md) fixed natural gas rate.
 
 All rates are subject to an administration fee, as well as distribution and

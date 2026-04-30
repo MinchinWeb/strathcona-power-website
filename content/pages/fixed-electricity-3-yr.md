@@ -18,7 +18,7 @@ copy_date: 2025-26
 We offer both fixed and [floating]({filename}floating-electricity.md)
 electricity rates. We also offer a
 [1 year]({filename}fixed-electricity-1-yr.md),
-[2 year fixed]({filename}fixed-electricity-2-yr.md), and
+[2 year]({filename}fixed-electricity-2-yr.md), and
 [5 year]({filename}fixed-electricity.md) fixed rates.
 
 All rates are subject to an administration fee, as well as distribution and
