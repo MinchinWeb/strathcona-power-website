@@ -6,7 +6,7 @@ date: 2024-09-30 15:16 -0600
 
 If you're trying to decide between fixed and floating for electricity and
 natural gas, this is where I lay out my (professionally informed) opinion on
-the matter. This is as of the end of September 2024, and I expect to
+the matter. This is as of the end of September 2024, and I expect this to
 change as time goes by.
 
 When I first laid out my advise in [Febuary of last
@@ -21,7 +21,7 @@ the opening of the Cascade plant is considered, and the implications of the
 Province's upcoming changes to the [Regulated Rate
 Option]({filename}2023-02-24-rro.md) remain unconfirmed. **For electricity, go
 with a floating rate.** I would consider switching if fixed prices drop below
-~7 &cents;/kWh.
+~7 &cent;/kWh.
 
 For natural gas, floating prices are remarkably low, at ~$1.65/GJ, including
 our margin. For this reason, **for natural gas, go with a floating rate.** As

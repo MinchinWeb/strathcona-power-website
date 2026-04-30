@@ -158,7 +158,7 @@ FOOTER_ITEMS = (
     ("Blog", "header " + SITEURL + "/" + ARCHIVES_URL, None),
         # ("Rate Updates", SITEURL + + "/" + CATEGORY_URL.format(slug="rate-updates") + "/", None),
         ("Fixed vs Floating?", SITEURL + "/" + CATEGORY_URL.format(slug="fixed-vs-floating") + "/", None),
-        # ("Building in Public", SITEURL + "/" + CATEGORY_URL.format(slug="building-in-public") + "/", None),
+        ("Building in Public", SITEURL + "/" + CATEGORY_URL.format(slug="build-in-public") + "/", None),
         # ("All Archives", SITEURL + "/" + ARCHIVES_URL, None),
         (None, "end-header", None),
     (None, "end-col", None),
