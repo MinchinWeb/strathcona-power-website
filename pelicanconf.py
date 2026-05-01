@@ -80,19 +80,46 @@ CATEGORY_REGEX_SUBSTITUTIONS = [
 ]
 CATEGORIES_URL = "category/"
 CATEGORIES_SAVE_AS = "category/index.html"
-ARTICLE_URL = "{date:%Y}/{date:%m}/{slug}/"
-ARTICLE_SAVE_AS = "{date:%Y}/{date:%m}/{slug}/index.html"
 AUTHORS_URL = ""
 AUTHORS_SAVE_AS = ""
-ARCHIVES_URL = "archives/"
-ARCHIVES_SAVE_AS = "archives/index.html"
-YEAR_ARCHIVE_URL = "{date:%Y}/"
-YEAR_ARCHIVE_SAVE_AS = "{date:%Y}/index.html"
-MONTH_ARCHIVE_URL = "{date:%Y}/{date:%m}/"
-MONTH_ARCHIVE_SAVE_AS = "{date:%Y}/{date:%m}/index.html"
+ARCHIVES_URL = "blog/archives/"
+ARCHIVES_SAVE_AS = "blog/archives/index.html"
+ARTICLE_URL = "blog/{date:%Y}/{date:%m}/{slug}/"
+ARTICLE_SAVE_AS = "blog/{date:%Y}/{date:%m}/{slug}/index.html"
+MONTH_ARCHIVE_URL = "blog/{date:%Y}/{date:%m}/"
+MONTH_ARCHIVE_SAVE_AS = "blog/{date:%Y}/{date:%m}/index.html"
+YEAR_ARCHIVE_URL = "blog/{date:%Y}/"
+YEAR_ARCHIVE_SAVE_AS = "blog/{date:%Y}/index.html"
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
+# TODO: set URL for blog post listing
+# TODO: update blog URL in footer and on main page
+INDEX_URL = "blog/"
+INDEX_SAVE_AS = "blog/index.html"
 
+DIRECT_TEMPLATES = [
+    "index",
+    "categories",
+    "authors",
+    "archives",
+    "search",
+    "tags",
+    "404",
+    # "prjct",
+]
+PAGINATED_TEMPLATES = {
+    "index": None,
+    "tag": None,
+    "category": None,
+    "author": None,
+    #"archives": None,
+}
+# TODO: set pagination patterns
+DEFAULT_PAGINATION = 4
+PAGINATION_PATTERNS = (
+    (1, '{url}', '{save_as}'),
+    (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
+)
 
 # # Add Blog to sidebar
 # MENUITEMS = (
@@ -154,11 +181,11 @@ FOOTER_ITEMS = (
     (None, "clearfix visible-sm-block", None),
 
     (None, "col-md-4 col-sm-6", None),
-    ("Blog", "header " + SITEURL + "/" + ARCHIVES_URL, None),
+    ("Blog", "header " + SITEURL + "/" + INDEX_URL, None),
         # ("Rate Updates", SITEURL + + "/" + CATEGORY_URL.format(slug="rate-updates") + "/", None),
         ("Fixed vs Floating?", SITEURL + "/" + CATEGORY_URL.format(slug="fixed-vs-floating") + "/", None),
         ("Building in Public", SITEURL + "/" + CATEGORY_URL.format(slug="build-in-public") + "/", None),
-        # ("All Archives", SITEURL + "/" + ARCHIVES_URL, None),
+        ("All Archives", SITEURL + "/" + ARCHIVES_URL, None),
         (None, "end-header", None),
     (None, "end-col", None),
 

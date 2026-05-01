@@ -147,7 +147,7 @@ pyyaml==6.0.3
     # via webassets
 rich==15.0.0
     # via pelican
-seafoam==2.18.0
+seafoam==2.19.0
     # via -r .requirements/build.in
 six==1.17.0
     # via

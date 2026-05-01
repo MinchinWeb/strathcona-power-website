@@ -20,13 +20,15 @@ to fall. There is also some uncertainty in long term markets are the impact of
 the opening of the Cascade plant is considered, and the implications of the
 Province's upcoming changes to the [Regulated Rate
 Option]({filename}2023-02-24-rro.md) remain unconfirmed. **For electricity, go
-with a floating rate.** I would consider switching if fixed prices drop below
-~7 &cent;/kWh.
+with a [floating rate]({filename}/pages/floating-electricity.md).** I would
+consider switching if [fixed prices]({filename}/pages/fixed-electricity.md)
+drop below ~7 &cent;/kWh.
 
-For natural gas, floating prices are remarkably low, at ~$1.65/GJ, including
-our margin. For this reason, **for natural gas, go with a floating rate.** As
-winter sets in, I expect spot prices to rise with demand, but fixed prices are
-about double that, although relatively low by historical standards. I would
+For natural gas, [floating prices]({filename}/pages/floating-natural-gas.md)
+are remarkably low, at ~$1.65/GJ, including our margin. For this reason, **for
+natural gas, go with a floating rate.** As winter sets in, I expect spot prices
+to rise with demand, but [fixed prices]({filename}/pages/fixed-natural-gas.md)
+are about double that, although relatively low by historical standards. I would
 consider going with a fixed natural gas rate if concerns about rising winter
 natural gas rates will keep you up at night.
 

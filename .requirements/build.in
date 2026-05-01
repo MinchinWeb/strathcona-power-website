@@ -10,7 +10,7 @@ pelican-alias
 pelican-extended-sitemap
 # pelican-minify  # breaks jquery
 pelican-neighbors
-seafoam >= 2.18.0  # for fat footer
+seafoam >= 2.19.0  # for fat footer, main page article listing control
 # seafoam @ git+https://github.com/MinchinWeb/seafoam.git@master
 typogrify
 webassets >= 0.12.1
