@@ -92,9 +92,7 @@ YEAR_ARCHIVE_URL = "blog/{date:%Y}/"
 YEAR_ARCHIVE_SAVE_AS = "blog/{date:%Y}/index.html"
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
-# TODO: set URL for blog post listing
-# TODO: update blog URL in footer and on main page
-INDEX_URL = "blog/"
+_FOOTER_INDEX_URL = "blog/"
 INDEX_SAVE_AS = "blog/index.html"
 
 DIRECT_TEMPLATES = [
@@ -114,7 +112,6 @@ PAGINATED_TEMPLATES = {
     "author": None,
     #"archives": None,
 }
-# TODO: set pagination patterns
 DEFAULT_PAGINATION = 4
 PAGINATION_PATTERNS = (
     (1, '{url}', '{save_as}'),
@@ -141,58 +138,62 @@ PAGINATION_PATTERNS = (
 
 # DISPLAY_PAGES_ON_MENU = False
 
+# TODO: Need to set this deliberately, as these are pre-rendered beforing being
+# imported into `publishconf.py` (which changes `SITEURL`)...
+# _FOOTER_SITEURL = SITEURL
+_FOOTER_SITEURL = "//strathconapower.ca"
 FOOTER_ITEMS = (
     (None, "col-md-4 col-sm-6", None),
-    ("Electricity", "header " + SITEURL + "/electricity/", None),
-        ("Floating", SITEURL + "/electricity/floating/", None),
-        ("1 Year Fixed", SITEURL + "/electricity/fixed/1-year/", None),
-        ("2 Year Fixed", SITEURL + "/electricity/fixed/2-year/", None),
-        ("3 Year Fixed", SITEURL + "/electricity/fixed/3-year/", None),
-        ("5 Year Fixed", SITEURL + "/electricity/fixed/", None),
-        ("Microgeneration Rate", SITEURL + "/solar/", None),
+    ("Electricity", "header " + _FOOTER_SITEURL + "/electricity/", None),
+        ("Floating", _FOOTER_SITEURL + "/electricity/floating/", None),
+        ("1 Year Fixed", _FOOTER_SITEURL + "/electricity/fixed/1-year/", None),
+        ("2 Year Fixed", _FOOTER_SITEURL + "/electricity/fixed/2-year/", None),
+        ("3 Year Fixed", _FOOTER_SITEURL + "/electricity/fixed/3-year/", None),
+        ("5 Year Fixed", _FOOTER_SITEURL + "/electricity/fixed/", None),
+        ("Microgeneration Rate", _FOOTER_SITEURL + "/solar/", None),
         (None, "end-header", None),
     (None, "end-col", None),
 
     (None, "col-md-4 col-sm-6", None),
-    ("Natural Gas", "header "+ SITEURL + "/natural-gas/", None),
-        ("Floating", SITEURL + "/natural-gas/floating/", None),
-        ("1 Year Fixed", SITEURL + "/natural-gas/fixed/1-year/", None),
-        ("2 Year Fixed", SITEURL + "/natural-gas/fixed/2-year/", None),
-        ("3 Year Fixed", SITEURL + "/natural-gas/fixed/3-year/", None),
-        ("5 Year Fixed", SITEURL + "/natural-gas/fixed/", None),
+    ("Natural Gas", "header "+ _FOOTER_SITEURL + "/natural-gas/", None),
+        ("Floating", _FOOTER_SITEURL + "/natural-gas/floating/", None),
+        ("1 Year Fixed", _FOOTER_SITEURL + "/natural-gas/fixed/1-year/", None),
+        ("2 Year Fixed", _FOOTER_SITEURL + "/natural-gas/fixed/2-year/", None),
+        ("3 Year Fixed", _FOOTER_SITEURL + "/natural-gas/fixed/3-year/", None),
+        ("5 Year Fixed", _FOOTER_SITEURL + "/natural-gas/fixed/", None),
         (None, "end-header", None),
     (None, "end-col", None),
     (None, "clearfix visible-sm-block", None),
 
     (None, "col-md-4 col-sm-6", None),
-    ("Solar Rates", SITEURL + "/solar/", None),
-    ("Behind-the-Fence Generation", SITEURL + "/behind-the-fence-generation/", None),
+    ("Solar Rates", _FOOTER_SITEURL + "/solar/", None),
+    ("Behind-the-Fence Generation", S_FOOTER_ITEURL + "/behind-the-fence-generation/", None),
     (None, "end-col", None),
     (None, "clearfix visible-lg-block visible-md-block", None),
 
     (None, "col-md-4 col-sm-6", None),
-    ("Our Story", SITEURL + "/about-strathcona-power/", None),  # About Us
-    ("Fundraisers", "header " + SITEURL + "/fundraising/", None),
-        # ("Dance Experience", SITEURL + "", None),
-        # ("École Gabrille-Roy", SITEURL + "", None),
-        # ("École Michaëlle-Jean", SITEURL + "", None),
+    ("Our Story", _FOOTER_SITEURL + "/about-strathcona-power/", None),  # About Us
+    ("Fundraisers", "header " + _FOOTER_SITEURL + "/fundraising/", None),
+        # ("Dance Experience", _FOOTER_SITEURL + "", None),
+        # ("École Gabrille-Roy", _FOOTER_SITEURL + "", None),
+        # ("École Michaëlle-Jean", _FOOTER_SITEURL + "", None),
         (None, "end-header", None),
     (None, "end-col", None),
     (None, "clearfix visible-sm-block", None),
 
     (None, "col-md-4 col-sm-6", None),
-    ("Blog", "header " + SITEURL + "/" + INDEX_URL, None),
-        # ("Rate Updates", SITEURL + + "/" + CATEGORY_URL.format(slug="rate-updates") + "/", None),
-        ("Fixed vs Floating?", SITEURL + "/" + CATEGORY_URL.format(slug="fixed-vs-floating") + "/", None),
-        ("Building in Public", SITEURL + "/" + CATEGORY_URL.format(slug="build-in-public") + "/", None),
-        ("All Archives", SITEURL + "/" + ARCHIVES_URL, None),
+    ("Blog", "header " + _FOOTER_SITEURL + "/" + INDEX_URL, None),
+        # ("Rate Updates", _FOOTER_SITEURL + + "/" + CATEGORY_URL.format(slug="rate-updates") + "/", None),
+        ("Fixed vs Floating?", _FOOTER_SITEURL + "/" + CATEGORY_URL.format(slug="fixed-vs-floating") + "/", None),
+        ("Building in Public", _FOOTER_SITEURL + "/" + CATEGORY_URL.format(slug="build-in-public") + "/", None),
+        ("All Archives", _FOOTER_SITEURL + "/" + ARCHIVES_URL, None),
         (None, "end-header", None),
     (None, "end-col", None),
 
     (None, "col-md-4 col-sm-6", None),
-    ("Contact Us", SITEURL + "/contact-us/", None),
-    ("Sign Up", SITEURL + "/signup/", None),
-    ("My Account", SITEURL + "/account/", None),
+    ("Contact Us", _FOOTER_SITEURL + "/contact-us/", None),
+    ("Sign Up", _FOOTER_SITEURL + "/signup/", None),
+    ("My Account", _FOOTER_SITEURL + "/account/", None),
     ("Facebook", "https://www.facebook.com/people/Strathcona-Power/61586616562661/", "fa-brands fa-facebook"),
     ("LinkedIn", "https://www.linkedin.com/company/strathconapower/", "fa-brands fa-linkedin"),
     ("780-412-1065", "tel:+1-780-412-1065", "fas fa-phone"),  # phone number
