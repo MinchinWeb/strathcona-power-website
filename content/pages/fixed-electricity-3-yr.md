@@ -1,10 +1,9 @@
 title: Fixed Electricity (3 year)
 date: 2025-01-06 18:34
-updated: 2026-05-01 11:14
+modified: 2026-05-01 11:14
 template: strathcona/pricing
 url: electricity/fixed/3-year
 save_as: electricity/fixed/3-year/index.html
-status: hidden
 electricity: True
 fixed_price: True
 admin_fee: 19.99

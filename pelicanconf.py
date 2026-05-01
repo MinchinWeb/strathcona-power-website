@@ -101,19 +101,19 @@ DIRECT_TEMPLATES = [
     "categories",
     "authors",
     "archives",
-    "search",
+    # "search",
     "tags",
     "404",
     # "prjct",
 ]
-PAGINATED_TEMPLATES = {
-    "index": None,
-    "tag": None,
-    "category": None,
-    "author": None,
-    #"archives": None,
-}
-DEFAULT_PAGINATION = 4
+# PAGINATED_TEMPLATES = {
+#     "index": None,
+#     "tag": None,
+#     "category": None,
+#     "author": None,
+#     # "archives": None,
+# }
+DEFAULT_PAGINATION = 10
 PAGINATION_PATTERNS = (
     (1, '{url}', '{save_as}'),
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
@@ -137,12 +137,21 @@ PAGINATION_PATTERNS = (
 #     ("Labels", SITEURL + "/" + TAGS_URL, "fa fa-fw fa-tags"),
 # )
 
-# DISPLAY_PAGES_ON_MENU = False
 
 # TODO: Need to set this deliberately, as these are pre-rendered beforing being
 # imported into `publishconf.py` (which changes `SITEURL`)...
 # _FOOTER_SITEURL = SITEURL
 _FOOTER_SITEURL = "//strathconapower.ca"
+
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = (
+    ("Electricity", "header " + _FOOTER_SITEURL + "/electricity/", None),
+    ("Natural Gas", "header "+ _FOOTER_SITEURL + "/natural-gas/", None),
+    ("Solar", _FOOTER_SITEURL + "/solar/", None),
+    ("Generation", _FOOTER_SITEURL + "/behind-the-fence-generation/", None),
+    ("Contact Us", _FOOTER_SITEURL + "/contact-us/", None),
+)
+
 FOOTER_ITEMS = (
     (None, "col-md-4 col-sm-6", None),
     ("Electricity", "header " + _FOOTER_SITEURL + "/electricity/", None),
@@ -245,6 +254,7 @@ AUTOLOADER_NAMESPACES = autoloader.DEFAULT_NAMESPACE_LIST + [
 PLUGINS = [
     autoloader,
     "pelican_alias",
+    "extended_sitemap",
 ]
 
 ASSET_CSS = False

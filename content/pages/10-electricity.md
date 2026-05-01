@@ -1,6 +1,6 @@
 title: Electricity
 recommend: fixed
-updated: 2026-02-04 11:02
+modified: 2026-02-04 11:02
 template: strathcona/pricing
 url: electricity/
 save_as: electricity/index.html

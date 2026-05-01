@@ -3,10 +3,10 @@ url:
 _jumbotron_color: #8B6D49
 image: images/halkirk-895.jpg
 save_as: index.html
-status: hidden
 article_listing: True
 article_listing_count: 4
 copy_date: 2023-26
+modified: 2026-05-01
 
 Deep roots, new power.
 

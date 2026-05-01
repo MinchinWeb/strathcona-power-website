@@ -1,7 +1,7 @@
 title: Natural Gas
 recommend: floating
 date: 2023-02-28 17:55
-updated: 2026-02-04 11:02
+modified: 2026-02-04 11:02
 template: strathcona/pricing
 url: natural-gas/
 save_as: natural-gas/index.html

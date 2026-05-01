@@ -1,10 +1,9 @@
 title: Fixed Natural Gas (2 year)
 date: 2025-10-02 18:19
-updated: 2026-05-01 11:15
+modified: 2026-05-01 11:15
 template: strathcona/pricing
 url: natural-gas/fixed/2-year
 save_as: natural-gas/fixed/2-year/index.html
-status: hidden
 natural_gas: True
 fixed_price: True
 admin_fee: 13.99

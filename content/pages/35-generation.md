@@ -2,7 +2,7 @@ title: On-Site Generation
 menulabel: Generation
 slug: behind-the-fence-generation
 copy_date: 2026
-updated: 2026-04-14 11:18
+modified: 2026-04-14 11:18
 
 Strathcona Power is pleased to offer On-site/Behind-the-Fence generation.
 

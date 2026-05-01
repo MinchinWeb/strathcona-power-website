@@ -1,10 +1,9 @@
 title: Floating Electricity
 date: 2023-02-28 17:55
-updated: 2026-04-24 10:14
+modified: 2026-04-24 10:14
 template: strathcona/pricing
 url: electricity/floating/
 save_as: electricity/floating/index.html
-status: hidden
 electricity: True
 floating_price: True
 admin_fee: 10.99

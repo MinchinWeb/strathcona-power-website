@@ -2,7 +2,7 @@ title: Solar and Microgeneration in Alberta
 menulabel: Solar
 slug: solar
 copy_date: 2025-26
-updated: 2026-03-09 16:01
+modified: 2026-03-09 16:01
 
 Alberta has a very generous microgeneration regulation that allows you to sell
 your extra solar power produced back to the grid!

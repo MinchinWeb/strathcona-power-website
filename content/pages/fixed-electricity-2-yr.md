@@ -1,10 +1,9 @@
 title: Fixed Electricity (2 year)
 date: 2025-10-02 18:16
-updated: 2026-05-01 11:14
+modified: 2026-05-01 11:14
 template: strathcona/pricing
 url: electricity/fixed/2-year
 save_as: electricity/fixed/2-year/index.html
-status: hidden
 electricity: True
 fixed_price: True
 admin_fee: 19.99
