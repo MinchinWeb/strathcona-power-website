@@ -92,7 +92,7 @@ YEAR_ARCHIVE_URL = "blog/{date:%Y}/"
 YEAR_ARCHIVE_SAVE_AS = "blog/{date:%Y}/index.html"
 PAGE_URL = "{slug}/"
 PAGE_SAVE_AS = "{slug}/index.html"
-_FOOTER_INDEX_URL = "blog/"
+INDEX_URL = "blog/"
 INDEX_SAVE_AS = "blog/index.html"
 
 DIRECT_TEMPLATES = [
@@ -167,7 +167,7 @@ FOOTER_ITEMS = (
 
     (None, "col-md-4 col-sm-6", None),
     ("Solar Rates", _FOOTER_SITEURL + "/solar/", None),
-    ("Behind-the-Fence Generation", S_FOOTER_ITEURL + "/behind-the-fence-generation/", None),
+    ("Behind-the-Fence Generation", _FOOTER_SITEURL + "/behind-the-fence-generation/", None),
     (None, "end-col", None),
     (None, "clearfix visible-lg-block visible-md-block", None),
 
