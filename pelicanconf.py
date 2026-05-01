@@ -50,6 +50,7 @@ EXTRA_PATH_METADATA = {
     "../extras/favicon.ico": {"path": "favicon.ico"},
     # "images/strathcona-power-16x16.png": {"path": "favicon.png"},
     "../extras/BingSiteAuth.xml": {"path": "BingSiteAuth.xml"},
+    "../extras/robots.txt": {"path": "robots.txt"},
 }
 
 # MARKUP = ("rst", "md", "markdown", "mkd", "mdown", "html", "htm")
