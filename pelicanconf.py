@@ -145,8 +145,8 @@ _FOOTER_SITEURL = "//strathconapower.ca"
 
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
-    ("Electricity", "header " + _FOOTER_SITEURL + "/electricity/", None),
-    ("Natural Gas", "header "+ _FOOTER_SITEURL + "/natural-gas/", None),
+    ("Electricity", _FOOTER_SITEURL + "/electricity/", None),
+    ("Natural Gas", _FOOTER_SITEURL + "/natural-gas/", None),
     ("Solar", _FOOTER_SITEURL + "/solar/", None),
     ("Generation", _FOOTER_SITEURL + "/behind-the-fence-generation/", None),
     ("Contact Us", _FOOTER_SITEURL + "/contact-us/", None),
