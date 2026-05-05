@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /theme/
 Disallow: /404/
 
-Sitemap: http://strathconapower.ca/sitemap.xml
+Sitemap: https://strathconapower.ca/sitemap.xml

@@ -10,8 +10,9 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = "//strathconapower.ca"
+SITEURL = "https://strathconapower.ca"
 SITE_ROOT_URL = "https://strathconapower.ca"
+# CANONICAL_SITEURL = "https://strathconapower.ca"
 RELATIVE_URLS = False
 LOAD_CONTENT_CACHE = False
 CACHE_CONTENT = False
