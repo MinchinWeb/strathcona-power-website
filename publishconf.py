@@ -34,5 +34,4 @@ SEAFOAM_DEV_MODE = False  # turn on image processing
 
 # OUTPUT_PATH = '../strathcona-power-master/'  # default is 'output/'
 
-# GOOGLE_ANALYTICS_UNIVERSAL = "UA-xxxxxx-x"
-# GOOGLE_ANALYTICS_UNIVERSAL_PROPERTY = "XX Property Name"
+GOOGLE_ANALYTICS_V4 = "G-82F926J2VR"
