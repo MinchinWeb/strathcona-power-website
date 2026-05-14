@@ -14,7 +14,7 @@ summary: This is our recommend rate!
 copy_date: 2023-26
 
 The floating is our favourite, and has been for a
-long time. While the flaoting does go up and down,
+long time. While the floating does go up and down,
 fixed rates remain comparatively high and remain
 slow to drop. In fact, **our floating rate would
 have saved you 51% last month**.[^1]
@@ -32,7 +32,7 @@ We offer both fixed and floating electricity rates. We offer
 If you still are trying to decide which Strathcona
 Power rate is best for you, 
 [email William](mailto:william@strathconapower.ca?subject=Website Rate recommendation)
-[William@StrathconaPower.ca](mailto:william@strathconapower.ca?subject=Website Rate recommendation)
+([William@StrathconaPower.ca](mailto:william@strathconapower.ca?subject=Website Rate recommendation))
 a copy of a recent bill and he'll send you back a
 personalized rate recommendation.
 
