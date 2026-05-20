@@ -1,6 +1,7 @@
 title: Fixed vs Floating Electricity and Natural Gas -- October 2024 Edition
 category: fixed-vs-floating
 date: 2024-09-30 15:16 -0600
+alais: 2024/09/fixed-vs-floating-electricity-and-natural-gas-october-2024-edition/
 
 *tl,dr*: Today's advice: go with **floating power** and **floating natural gas**.
 
@@ -20,17 +21,19 @@ to fall. There is also some uncertainty in long term markets are the impact of
 the opening of the Cascade plant is considered, and the implications of the
 Province's upcoming changes to the [Regulated Rate
 Option]({filename}2023-02-24-rro.md) remain unconfirmed. **For electricity, go
-with a [floating rate]({filename}/pages/floating-electricity.md).** I would
-consider switching if [fixed prices]({filename}/pages/fixed-electricity.md)
-drop below ~7 &cent;/kWh.
+with a [floating rate]({filename}/pages/EL/floating-electricity.md).** I would
+consider switching if [fixed
+prices]({filename}/pages/EL/fixed-electricity-5-yr.md) drop below ~7
+&cent;/kWh.
 
-For natural gas, [floating prices]({filename}/pages/floating-natural-gas.md)
+For natural gas, [floating prices]({filename}/pages/NG/floating-natural-gas.md)
 are remarkably low, at ~$1.65/GJ, including our margin. For this reason, **for
 natural gas, go with a floating rate.** As winter sets in, I expect spot prices
-to rise with demand, but [fixed prices]({filename}/pages/fixed-natural-gas.md)
-are about double that, although relatively low by historical standards. I would
-consider going with a fixed natural gas rate if concerns about rising winter
-natural gas rates will keep you up at night.
+to rise with demand, but [fixed
+prices]({filename}/pages/NG/fixed-natural-gas-5-yr.md) are about double that,
+although relatively low by historical standards. I would consider going with a
+fixed natural gas rate if concerns about rising winter natural gas rates will
+keep you up at night.
 
 If you have a particular situation you would like more help with, please no not
 hesitate to reach out, email

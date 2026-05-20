@@ -2,7 +2,7 @@ title: Fixed Electricity (3 year)
 date: 2025-01-06 18:34
 modified: 2026-05-01 11:14
 template: strathcona/pricing
-url: electricity/fixed/3-year
+url: electricity/fixed/3-year/
 save_as: electricity/fixed/3-year/index.html
 electricity: True
 fixed_price: True
@@ -14,11 +14,11 @@ call_to_action_url: https://billhub.ca/signup/strathconapower
 summary:
 copy_date: 2025-26
 
-We offer both fixed and [floating]({filename}floating-electricity.md)
+We offer both fixed and [floating]({filename}/pages/EL/floating-electricity.md)
 electricity rates. We also offer a
-[1 year]({filename}fixed-electricity-1-yr.md),
-[2 year]({filename}fixed-electricity-2-yr.md), and
-[5 year]({filename}fixed-electricity.md) fixed rates.
+[1 year]({filename}/pages/EL/fixed-electricity-1-yr.md),
+[2 year]({filename}/pages/EL/fixed-electricity-2-yr.md), and
+[5 year]({filename}/pages/EL/fixed-electricity-5-yr.md) fixed rates.
 
 All rates are subject to an administration fee, as well as distribution and
 transmission fees.

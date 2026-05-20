@@ -120,9 +120,10 @@ a similiar amount for natural gas), and we will be donating 50% of that.
 
 ### How can I see the rates, and how do I know if subscribing will save me money?
 
-You can find all our rates here: [Electricity]({filename}10-electricity.md) &
-[Natural Gas]({filename}20-natural-gas.md). The fundraising is valid with all
-of our rates.
+You can find all our rates here:
+[Electricity]({filename}/pages/10-electricity.md) & [Natural
+Gas]({filename}/pages/20-natural-gas.md). The fundraising is valid with all of
+our rates.
 
 If you need help figuring out if one of our rates can save you money, don't
 hesitate to [email us](mailto:marcy@strathconapower.ca?subject=Fundraiser Bill
@@ -135,20 +136,21 @@ Because rates change monthly, please [contact
 us](mailto:marcy@strathconapower.ca?subject=Fundraiser Rate Recommendation) for
 an updated recommendation. However, in general we currently recommend floating
 rates. They have consistently been lower than fixed rates since the beginning
-of 2025. We offer both [floating]({filename}floating-electricity.md) and
-[fixed]({filename}fixed-electricity.md) rates for power and [natural
-gas]({filename}floating-natural-gas.md) with terms up to 5 years.
+of 2025. We offer both [floating]({filename}/pages/EL/floating-electricity.md)
+and [fixed]({filename}/pages/EL/fixed-electricity-5-yr.md) rates for power and
+[natural gas]({filename}/pages/NG/floating-natural-gas.md) with terms up to 5
+years.
 
 ### Does Strathcona Power offer a solar rate?
 
 **YES!** We offer exceptional summer and winter rates in order to maximize your
 solar generation income during the summer. Our [summertime solar club
-rate]({filename}30-microgeneration.md) is 35 &cent;/kWh.
+rate]({filename}/pages/30-microgeneration.md) is 35 &cent;/kWh.
 
 #### How do I sign up for the solar-club rate?
 
 When you sign up for electricity, choose the rate you would like to be on in
-the winter; [Floating]({filename}floating-electricity.md) is our
+the winter; [Floating]({filename}/pages/EL/floating-electricity.md) is our
 recommendation. Then click the "Got Solar" checkbox. We even manage switching
 between your winter and summer rates for you!
 
@@ -197,8 +199,9 @@ All bills are sent electronically via email.
 
 ### What if I have more questions?
 
-Feel free to [email us](mailto:marcy@strathconapower.ca)! We are happy to answer questions and/or provide a
-comparative quote so that you know if switching providers will save you money.
+Feel free to [email us](mailto:marcy@strathconapower.ca)! We are happy to
+answer questions and/or provide a comparative quote so that you know if
+switching providers will save you money.
 
 <div class="row text-center" markdown=1>
   <div class="col-xs-12" markdown=1>

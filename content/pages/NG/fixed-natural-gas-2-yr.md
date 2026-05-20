@@ -2,7 +2,7 @@ title: Fixed Natural Gas (2 year)
 date: 2025-10-02 18:19
 modified: 2026-05-01 11:15
 template: strathcona/pricing
-url: natural-gas/fixed/2-year
+url: natural-gas/fixed/2-year/
 save_as: natural-gas/fixed/2-year/index.html
 natural_gas: True
 fixed_price: True
@@ -15,10 +15,11 @@ call_to_action_url: https://billhub.ca/signup/strathconapower
 summary:
 copy_date: 2023-26
 
-We offer fixed and [floating]({filename}floating-natural-gas.md) natural gas
-rates. We also offer a [1 year]({filename}fixed-natural-gas-1-yr.md),
-[3 year]({filename}fixed-natural-gas-3-yr.md), and
-[5 year]({filename}fixed-natural-gas.md) fixed natural gas rate.
+We offer fixed and [floating]({filename}/pages/NG/floating-natural-gas.md)
+natural gas rates. We also offer a
+[1 year]({filename}/pages/NG/fixed-natural-gas-1-yr.md),
+[3 year]({filename}/pages/NG/fixed-natural-gas-3-yr.md), and
+[5 year]({filename}/pages/NG/fixed-natural-gas-5-yr.md) fixed natural gas rate.
 
 All rates are subject to an administration fee, as well as distribution and
 transmission fees.

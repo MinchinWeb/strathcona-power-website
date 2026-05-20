@@ -18,10 +18,10 @@ We service homes, farms, and small commercial locations across the province.
 
 <div class="row text-center" markdown=1>
   <div class="col-sm-6" markdown=1>
-[Electricity Rates]({filename}10-electricity.md)
+[Electricity Rates]({filename}/pages/10-electricity.md)
   </div>
   <div class="col-sm-6" markdown=1>
-[Natural Gas Rates]({filename}20-natural-gas.md)
+[Natural Gas Rates]({filename}/pages/20-natural-gas.md)
   </div>
 
   <div class="col-xs-12" markdown=1>

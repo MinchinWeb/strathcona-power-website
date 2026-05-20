@@ -15,5 +15,5 @@ Alberta families more generally.
 
 Our goal is to provide simple, quality service at affordable prices. Thanks for
 your part in helping this become a reality. We hope you'll [join
-us]({filename}redirect-signup.md), and if you already have, that you'll tell
-your friends!
+us]({filename}/pages/redirects/redirect-signup.md), and if you already have,
+that you'll tell your friends!
