@@ -35,3 +35,4 @@ SEAFOAM_DEV_MODE = False  # turn on image processing
 # OUTPUT_PATH = '../strathcona-power-master/'  # default is 'output/'
 
 GOOGLE_ANALYTICS_V4 = "G-82F926J2VR"
+GOOGLE_ANALYTICS_V4_2 = "AW-18161104635"
