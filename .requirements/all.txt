@@ -11,13 +11,13 @@ beautifulsoup4==4.14.3
     #   minchin-pelican-plugins-post-stats
     #   pelican-image-process
     #   seafoam
-black==26.3.1
+black==26.5.1
     # via -r .requirements/dev.in
 blinker==1.9.0
     # via pelican
-build==1.4.4
+build==1.5.0
     # via pip-tools
-click==8.3.3
+click==8.4.0
     # via
     #   black
     #   pip-tools
@@ -32,7 +32,7 @@ feedgenerator==2.2.1
     # via pelican
 html5lib==1.1
     # via -r .requirements/build.in
-idna==3.13
+idna==3.15
     # via anyio
 invoke==3.0.3
     # via
@@ -45,13 +45,13 @@ jinja2==3.1.6
     #   -r .requirements/build.in
     #   minchin-pelican-plugins-cname
     #   pelican
-lxml==6.1.0
+lxml==6.1.1
     # via
     #   -r .requirements/build.in
     #   pelican-image-process
 markdown==3.10.2
     # via -r .requirements/build.in
-markdown-it-py==4.0.0
+markdown-it-py==4.2.0
     # via rich
 markupsafe==3.0.3
     # via jinja2
@@ -83,7 +83,7 @@ mypy-extensions==1.1.0
     # via black
 ordered-set==4.1.0
     # via pelican
-packaging==26.1
+packaging==26.2
     # via
     #   black
     #   build
@@ -91,7 +91,7 @@ packaging==26.1
     #   minchin-pelican-plugins-summary
     #   seafoam
     #   wheel
-pathspec==1.1.0
+pathspec==1.1.1
     # via black
 pelican==4.12.0
     # via
@@ -141,7 +141,7 @@ python-dateutil==2.9.0.post0
     # via pelican
 pytokens==0.4.1
     # via black
-pytz==2026.1.post1
+pytz==2026.2
     # via -r .requirements/build.in
 pyyaml==6.0.3
     # via webassets
@@ -163,13 +163,13 @@ typing-extensions==4.15.0
     # via beautifulsoup4
 typogrify==2.1.0
     # via -r .requirements/build.in
-tzdata==2026.1
+tzdata==2026.2
     # via
     #   feedgenerator
     #   pelican
 unidecode==1.4.0
     # via pelican
-watchfiles==1.1.1
+watchfiles==1.2.0
     # via pelican
 webassets==3.0.0
     # via -r .requirements/build.in
