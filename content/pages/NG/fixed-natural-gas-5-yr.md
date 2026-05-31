@@ -1,13 +1,13 @@
 title: Fixed Natural Gas (5 year)
 date: 2023-02-28 17:55
-modified: 2026-05-01 11:15
+modified: 2026-05-30 21:11
 template: strathcona/pricing
 url: natural-gas/fixed/5-year/
 save_as: natural-gas/fixed/5-year/index.html
 natural_gas: True
 fixed_price: True
 admin_fee: 13.99
-price: 3.89
+price: 3.95
 exit_fee: 250
 term: 5
 call_to_action: Sign Up!
