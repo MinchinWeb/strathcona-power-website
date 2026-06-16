@@ -1,7 +1,7 @@
 title: Fixed vs Floating Electricity and Natural Gas -- October 2024 Edition
 category: fixed-vs-floating
 date: 2024-09-30 15:16 -0600
-alais: 2024/09/fixed-vs-floating-electricity-and-natural-gas-october-2024-edition/
+alias: 2024/09/fixed-vs-floating-electricity-and-natural-gas-october-2024-edition/
 
 *tl,dr*: Today's advice: go with **floating power** and **floating natural gas**.
 
