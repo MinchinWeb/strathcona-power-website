@@ -202,6 +202,7 @@ FOOTER_ITEMS = (
 
     (None, "col-md-4 col-sm-6", None),
     ("Contact Us", _FOOTER_SITEURL + "/contact-us/", None),
+    ("Privacy Policy", _FOOTER_SITEURL + "/privacy/", None),
     ("Sign Up", _FOOTER_SITEURL + "/signup/", None),
     ("My Account", _FOOTER_SITEURL + "/account/", None),
     ("Facebook", "https://www.facebook.com/people/Strathcona-Power/61586616562661/", "fa-brands fa-facebook"),
