@@ -1,10 +1,7 @@
 title: Free Bill Review
 copy_date: 2023-26
-modified: 2026-07-10
+modified: 2026-07-21
 slug: bill-review
-
-Send us a copy of a recent electiricty and/or natural gas bill for a free
-review. No need to pay extra any longer!
 
 Let's schedule a call to chat about your savings options:
 
