@@ -32,4 +32,4 @@ expect to move in the next 5 years, stay with floating (as the fixed has an
 early exit fee).
 
 [^1]: Please do this by swapping to a floating rate for a month before moving
-    to your new fixed rate. I makes the bookkepping easier on our side.
+    to your new fixed rate. I makes the bookkeeping easier on our side.

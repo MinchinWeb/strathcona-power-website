@@ -10,7 +10,7 @@ natural gas, this is where I lay out my (professionally informed) opinion on
 the matter. This is as of the end of September 2024, and I expect this to
 change as time goes by.
 
-When I first laid out my advise in [Febuary of last
+When I first laid out my advise in [February of last
 year]({filename}2023-02-01-fixed-vs-floating.md), I did expect to have to write
 updates more often, but in truth the market has been fairly quiet and
 consistent for a surprisingly long time.
